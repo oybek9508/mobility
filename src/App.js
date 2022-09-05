@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import LandingHome from "./pages/LandingHome";
 
 function App() {

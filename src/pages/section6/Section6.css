@@ -1,8 +1,8 @@
 .section6 {
-  width: 100vw;
-  height: 1190px;
+  /* width: 100vw; */
+  height: 1120px;
   background-color: "#000";
-  /* background: url(./img/section3_bg_icon.png) no-repeat; */
+  background: url(./img/section6_bg.png) no-repeat;
   position: relative;
   background-size: cover;
   top: 0;

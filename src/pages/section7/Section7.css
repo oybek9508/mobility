@@ -1,9 +1,9 @@
 .section7 {
-  width: 100vw;
-  height: 1190px;
+  /* width: 100vw; */
+  height: 700px;
   background-color: "000";
   background: url(./img/section7_bg.png) no-repeat;
   position: relative;
   background-size: cover;
-  top: 0;
+  top: -132px;
 }

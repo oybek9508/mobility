@@ -14,7 +14,7 @@ import Round from "../../assets/section1/body/round.png";
 
 function Section1() {
   return (
-    <Grid className="section1" sx={{ px: { lg: "190px" } }} id="section1">
+    <Grid className="section1" sx={{ px: "10%" }} id="section1">
       <Header />
       <Box
         sx={{
