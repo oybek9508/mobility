@@ -37,7 +37,15 @@ function Section4() {
   const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
   const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
-    <Grid container className="section4" id="section4" justifyContent="center">
+    <Grid
+      container
+      className="section4"
+      id="section4"
+      justifyContent="center"
+      sx={{
+        height: { xs: "900px", sm: "1050px", md: "1150px", lg: "1284px" },
+      }}
+    >
       <Grid
         container
         justifyContent="center"

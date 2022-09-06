@@ -18,12 +18,7 @@ function Section2() {
   const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
   const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
-    <Grid
-      className="section2"
-      id="section2"
-      container
-      sx={{ px: { lg: "130px" } }}
-    >
+    <Grid className="section2" id="section2" container sx={{ px: "5%" }}>
       <Grid container flexDirection="column" alignItems="center">
         <Box
           sx={{
@@ -166,7 +161,7 @@ function Section2() {
                 fontSize: "18px",
                 fontWeight: 400,
                 color: "#fff",
-                left: "13%",
+                left: { xs: "6%", md: "13%" },
                 width: "85px",
                 textAlign: "end",
                 top: "35%",
@@ -277,10 +272,10 @@ function Section2() {
                 fontSize: "18px",
                 fontWeight: 400,
                 color: "#fff",
-                right: "13%",
+                right: { xs: "2%", md: "6%", lg: "10%" },
                 width: "200px",
                 textAlign: "start",
-                top: "71%",
+                top: { xs: "80%", md: "71%" },
               }}
             >
               <span style={{ color: "#D7C19A" }}>Like!,</span> 여러분의 NFT를

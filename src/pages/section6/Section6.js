@@ -15,6 +15,7 @@ function Section6() {
       container
       flexDirection="column"
       alignItems="center"
+      sx={{ height: { xs: "800px", sm: "900px", md: "1000px", lg: "1120px" } }}
     >
       <Box sx={{ position: "relative", mt: "160px" }}>
         <Typography
@@ -43,7 +44,7 @@ function Section6() {
         src={Soon}
         component="img"
         sx={{
-          mt: "160px",
+          mt: { xs: "50px", sm: "100px", lg: "160px" },
           width: "250px",
           height: "140px",
         }}
@@ -51,7 +52,7 @@ function Section6() {
       />
       <Box
         sx={{
-          mt: "350px",
+          mt: { xs: "200px", md: "300px", lg: "350px" },
           display: "flex",
           flexDirection: "column",
           alignItems: "center",

@@ -22,10 +22,16 @@ function Section7() {
       <Grid
         container
         justifyContent="space-between"
+        flexDirection={{ xs: "column", md: "row" }}
         alignItems="center"
-        sx={{ width: "80%", mt: "100px" }}
+        sx={{ width: { xs: "95%", lg: "80%" }, mt: "100px", py: "10%" }}
       >
-        <CardMedia src={Car} alt={Car} sx={{ width: "40%" }} component="img" />
+        <CardMedia
+          src={Car}
+          alt={Car}
+          sx={{ width: { xs: "300px", sm: "315px", md: "40%" } }}
+          component="img"
+        />
         <Box sx={{ display: "flex", flexDirection: "column" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <Typography

@@ -5,6 +5,7 @@ import Roadmap from "./ROADMAP.png";
 import World from "./WORLD.png";
 import Register from "./회원가입.png";
 import Language from "./KOR.png";
+import Vector from "./Vector.png";
 
 export const HeaderImgs = {
   Cartverse,
@@ -14,4 +15,5 @@ export const HeaderImgs = {
   World,
   Register,
   Language,
+  Vector,
 };

@@ -1,11 +1,9 @@
-import { Box, CardMedia, Grid } from "@mui/material";
+import { Box, CardMedia, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import Header from "../../components/Header";
 import "./Section1.css";
-import Title from "../../assets/section1/body/text1.png";
 import CarArt from "../../assets/section1/body/CartArt.png";
 import Cartverse from "../../assets/section1/body/CARTVERSE.png";
-import SubText from "../../assets/section1/body/subText.png";
 import CustomButton from "../../assets/section1/body/button.png";
 import Star1 from "../../assets/section1/body/Star1.png";
 import Star2 from "../../assets/section1/body/Star2.png";
@@ -17,7 +15,11 @@ function Section1() {
   const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
   const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
-    <Grid className="section1" sx={{ px: "10%" }} id="section1">
+    <Grid
+      className="section1"
+      sx={{ px: "10%", pb: { xs: "100px", sm: "200px", lg: "300px" } }}
+      id="section1"
+    >
       <Header />
       <Box
         sx={{
@@ -36,7 +38,7 @@ function Section1() {
             height: "260px",
             position: "absolute",
             bottom: -100,
-            left: 170,
+            left: { xs: 0, md: 50, lg: 100 },
           }}
           alt={Rectangular}
         />
@@ -100,12 +102,18 @@ function Section1() {
           }}
           alt={Star1}
         />
-        <CardMedia
-          component="img"
-          src={Title}
-          sx={{ width: "30%", mt: "40px" }}
-          alt={Title}
-        />
+        <Typography
+          sx={{
+            mt: "40px",
+            fontFamily: "Cal Sans",
+            fontWeight: 600,
+            fontSize: "18px",
+            color: "#FFFFFF",
+            zIndex: 9999,
+          }}
+        >
+          The NFT marketplace witch everything for everyone
+        </Typography>
         <CardMedia
           component="img"
           src={CarArt}
@@ -118,16 +126,31 @@ function Section1() {
           sx={{ width: "30%", mt: "20px" }}
           alt={Cartverse}
         />
-        <CardMedia
-          component="img"
-          src={SubText}
-          sx={{ width: "20%", mt: "20px" }}
-          alt={SubText}
-        />
+        <Typography
+          sx={{
+            mt: "40px",
+            fontFamily: "Tmoney RoundWind",
+            fontWeight: 800,
+            fontSize: "20px",
+            color: "#FFFFFF",
+          }}
+        >
+          럭셔리 커스텀카 오너와 팬덤을 위한
+        </Typography>
+        <Typography
+          sx={{
+            fontFamily: "Tmoney RoundWind",
+            fontWeight: 800,
+            fontSize: "20px",
+            color: "#FFFFFF",
+          }}
+        >
+          Web 3.0 커뮤니티
+        </Typography>
         <CardMedia
           component="img"
           src={CustomButton}
-          sx={{ width: "12%", mt: "20px" }}
+          sx={{ width: "180px", mt: "20px" }}
           alt={CustomButton}
         />
       </Box>

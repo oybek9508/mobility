@@ -64,7 +64,13 @@ function Section3() {
   const navigationNextRef = useRef(null);
 
   return (
-    <Grid className="section3" id="section3">
+    <Grid
+      className="section3"
+      id="section3"
+      sx={{
+        height: { xs: "900px", sm: "1000px", md: "1100px", lg: "1190px" },
+      }}
+    >
       <Grid
         container
         alignItems="center"
@@ -129,18 +135,18 @@ function Section3() {
                     component="img"
                     alt={s.image}
                     sx={{
-                      maxWidth: "400px",
-                      width: "100%",
-                      height: "100%",
-                      maxHeight: "600px",
+                      // maxWidth: "350px",
+                      width: { xs: "80%", md: "90%", lg: "80%" },
+                      height: { xs: "40%", sm: "50%", md: "70%", lg: "80%" },
+                      // maxHeight: "600px",
                       borderRadius: "25px",
                       ml: "40px",
                     }}
                   />
                   <Box
                     sx={{
-                      maxWidth: "400px",
-                      width: "100%",
+                      // maxWidth: "400px",
+                      width: "80%",
                       top: "-200px",
                       position: "relative",
                       display: "flex",
@@ -154,7 +160,12 @@ function Section3() {
                       sx={{
                         fontFamily: "Inter",
                         fontWeight: 600,
-                        fontSize: "24px",
+                        fontSize: {
+                          xs: "16px",
+                          sm: "18px",
+                          md: "20px",
+                          lg: "24px",
+                        },
                         color: "#FFFFFF",
                       }}
                     >
@@ -164,7 +175,12 @@ function Section3() {
                       sx={{
                         fontFamily: "Inter",
                         fontWeight: 600,
-                        fontSize: "18px",
+                        fontSize: {
+                          xs: "12px",
+                          sm: "14px",
+                          md: "16px",
+                          lg: "18px",
+                        },
                         color: "#FFFFFF",
                         mt: "20px",
                       }}

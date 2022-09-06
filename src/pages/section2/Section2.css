@@ -1,6 +1,7 @@
 .section2 {
   /* width: 100vw; */
-  height: 1190px;
+  /* height: 1190px; */
+  padding-bottom: 100px;
   background-color: "#000";
   /* background: url(./img/section2_bg.png) no-repeat; */
   position: relative;

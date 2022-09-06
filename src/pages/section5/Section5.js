@@ -44,6 +44,7 @@ function Section5() {
       container
       flexDirection="column"
       alignItems="center"
+      sx={{ height: { xs: "600px", sm: "700px", md: "900px", lg: "1120px" } }}
     >
       <CardMedia
         component="img"
@@ -92,7 +93,7 @@ function Section5() {
           sx={{
             fontFamily: "Tmoney RoundWind",
             fontWeight: 800,
-            fontSize: "64px",
+            fontSize: { xs: "20px", sm: "32px", md: "48px", lg: "64px" },
             color: " #81C0FE",
             textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
           }}

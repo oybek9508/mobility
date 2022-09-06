@@ -13,7 +13,8 @@ const customTextStyle = {
   fontweight: 400,
   fontsize: "19px",
   color: "#FFFFFF",
-  ml: "70px",
+  ml: { xs: "10px", sm: "20px", lg: "70px" },
+  wordBreak: "keep-all",
 };
 
 function Section8() {
@@ -24,11 +25,12 @@ function Section8() {
       <Grid container justifyContent="center" sx={{ height: "250px" }}>
         <Box
           sx={{
-            px: "5%",
+            px: { md: "2%", lg: "5%" },
             width: "100%",
             display: "flex",
+            flexDirection: { xs: "column", md: "row" },
             alignItems: "center",
-            justifyContent: "space-between",
+            justifyContent: { xs: "flex-start", md: "space-between" },
             borderBottom: "1px solid #ffffff",
           }}
         >
@@ -37,7 +39,7 @@ function Section8() {
               component="img"
               alt={Logo}
               src={Logo}
-              sx={{ width: "285px" }}
+              sx={{ width: { xs: "150px", sm: "200px", md: "285px" } }}
             />
             <Typography sx={{ ...customTextStyle }}>이용약관</Typography>
             <Typography sx={{ ...customTextStyle }}>
@@ -45,7 +47,14 @@ function Section8() {
             </Typography>
             <Typography sx={{ ...customTextStyle }}>운영정책</Typography>
           </Box>
-          <Box sx={{ display: "flex", alignItems: "center" }}>
+          <Box
+            sx={{
+              // width: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
             <CardMedia
               component="img"
               src={Insta}
@@ -68,13 +77,23 @@ function Section8() {
           </Box>
         </Box>
 
-        <Box sx={{ mt: "50px" }}>
+        <Box
+          sx={{
+            mt: "50px",
+            px: "5%",
+            // display: "flex",
+            // alignItems: "center",
+            // flexDirection: "column",
+            // justifyContent: "center",
+          }}
+        >
           <Typography
             sx={{
               fontFamily: "Inter",
               fontWeight: 400,
               fontSize: "17px",
               color: "#FFFFFF",
+              wordBreak: "keep-all",
             }}
           >
             서울특별시 강남구 봉은사로 16길 37 ㅣ 사업자등록번호 177F8F0119 ㅣ
