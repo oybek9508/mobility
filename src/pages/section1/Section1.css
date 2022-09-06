@@ -1,8 +1,9 @@
 .section1 {
-  /* width: 100vw; */
-  height: 1100px;
+  width: 100vw;
+  /* height: 1100px; */
+  padding-bottom: 300px;
   background: url(./img/section1_bg.png) no-repeat;
   position: relative;
-  background-size: cover;
+  background-size: contain;
   top: 0;
 }

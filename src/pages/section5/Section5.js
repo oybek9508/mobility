@@ -1,5 +1,6 @@
 import { Box, Card, CardMedia, Grid, Typography } from "@mui/material";
-import React from "react";
+import { useState } from "react";
+import { FormattedMessage } from "react-intl";
 import "./Section5.css";
 import NFT from "../../assets/section5/nft.png";
 import Checked from "../../assets/section5/checked.png";
@@ -34,6 +35,8 @@ const TextComponent = ({ text }) => (
 );
 
 function Section5() {
+  const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
+  const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
     <Grid
       className="section5"
@@ -126,6 +129,7 @@ function Section5() {
           display: "flex",
           alignItems: "center",
           flexDirection: "column",
+          zIndex: 9999,
         }}
       >
         <TextComponent text="커스텀 요소들을 NFT로 발행하고 컬렉션을 구성" />

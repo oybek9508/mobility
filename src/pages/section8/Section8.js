@@ -1,5 +1,6 @@
 import { Grid, Box, CardMedia, Typography, Divider } from "@mui/material";
-import React from "react";
+import { useState } from "react";
+import { FormattedMessage } from "react-intl";
 import "./Section8.css";
 import Logo from "../../assets/section8/logo.png";
 import Insta from "../../assets/section8/insta.png";
@@ -16,6 +17,8 @@ const customTextStyle = {
 };
 
 function Section8() {
+  const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
+  const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
     <Grid className="section8" container justifyContent="center">
       <Grid container justifyContent="center" sx={{ height: "250px" }}>

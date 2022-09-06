@@ -1,5 +1,5 @@
 import { Box, CardMedia, Grid } from "@mui/material";
-import React from "react";
+import { useState } from "react";
 import Header from "../../components/Header";
 import "./Section1.css";
 import Title from "../../assets/section1/body/text1.png";
@@ -11,8 +11,11 @@ import Star1 from "../../assets/section1/body/Star1.png";
 import Star2 from "../../assets/section1/body/Star2.png";
 import Rectangular from "../../assets/section1/body/Rectangle26.png";
 import Round from "../../assets/section1/body/round.png";
+import { FormattedMessage } from "react-intl";
 
 function Section1() {
+  const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
+  const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
     <Grid className="section1" sx={{ px: "10%" }} id="section1">
       <Header />

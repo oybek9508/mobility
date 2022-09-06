@@ -1,5 +1,6 @@
-import React from "react";
+import { useState } from "react";
 import "./Section7.css";
+import { FormattedMessage } from "react-intl";
 import { CardMedia, Grid, Box, Typography } from "@mui/material";
 import Car from "../../assets/section7/car.png";
 import Pin from "../../assets/section7/pin.png";
@@ -14,6 +15,8 @@ const customTextStyle = {
 };
 
 function Section7() {
+  const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
+  const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
     <Grid className="section7" id="section7" container justifyContent="center">
       <Grid

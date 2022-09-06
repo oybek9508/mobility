@@ -1,10 +1,13 @@
 import { Grid, Box, CardMedia, Typography } from "@mui/material";
-import React from "react";
+import { useState } from "react";
+import { FormattedMessage } from "react-intl";
 import "./Section6.css";
 import Bitcoin from "../../assets/section6/bitcoin.png";
 import Soon from "../../assets/section6/soon.png";
 
 function Section6() {
+  const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
+  const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
   return (
     <Grid
       className="section6"

@@ -1,4 +1,5 @@
-import { useLayoutEffect } from "react";
+import { useRef, useState } from "react";
+import { FormattedMessage } from "react-intl";
 import { Box, Button, CardMedia, Grid, Typography } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
@@ -8,6 +9,8 @@ import Fire from "../../assets/section3/fire.png";
 import Car1 from "../../assets/section3/car1.png";
 import Car2 from "../../assets/section3/car2.png";
 import Car3 from "../../assets/section3/car3.png";
+import LeftArrow from "../../assets/section3/leftArrow.png";
+import RightArrow from "../../assets/section3/rightArrow.png";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -55,6 +58,11 @@ const swiperData = [
 ];
 
 function Section3() {
+  const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
+  const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
+  const navigationPrevRef = useRef(null);
+  const navigationNextRef = useRef(null);
+
   return (
     <Grid className="section3" id="section3">
       <Grid
@@ -108,68 +116,90 @@ function Section3() {
               height: "100%",
               width: "96%",
             }}
+            navigation
             slidesPerView={3}
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
           >
             {swiperData.map((s, i) => (
-              <SwiperSlide key={i}>
-                <CardMedia
-                  src={s.image}
-                  component="img"
-                  alt={s.image}
-                  sx={{
-                    maxWidth: "400px",
-                    width: "100%",
-                    height: "100%",
-                    maxHeight: "600px",
-                    borderRadius: "25px",
-                  }}
-                />
-                <Box
-                  sx={{
-                    top: "-200px",
-                    position: "relative",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
-                >
-                  <Typography
+              <>
+                <SwiperSlide key={i}>
+                  <CardMedia
+                    src={s.image}
+                    component="img"
+                    alt={s.image}
                     sx={{
-                      fontFamily: "Inter",
-                      fontWeight: 600,
-                      fontSize: "24px",
-                      color: "#FFFFFF",
+                      maxWidth: "400px",
+                      width: "100%",
+                      height: "100%",
+                      maxHeight: "600px",
+                      borderRadius: "25px",
+                      ml: "40px",
+                    }}
+                  />
+                  <Box
+                    sx={{
+                      maxWidth: "400px",
+                      width: "100%",
+                      top: "-200px",
+                      position: "relative",
+                      display: "flex",
+                      justifyContent: "center",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      ml: "40px",
                     }}
                   >
-                    {s.title}
-                  </Typography>
-                  <Typography
-                    sx={{
-                      fontFamily: "Inter",
-                      fontWeight: 600,
-                      fontSize: "18px",
-                      color: "#FFFFFF",
-                      mt: "20px",
-                    }}
-                  >
-                    {s.subtitle}
-                  </Typography>
-                  <Button
-                    sx={{
-                      mt: "20px",
-                      border: "1px solid #8E74FF",
-                      borderRadius: "50px",
-                      width: "108px",
-                      height: "50px",
-                      color: "#8E74FF",
-                    }}
-                  >
-                    {s.view}
-                  </Button>
+                    <Typography
+                      sx={{
+                        fontFamily: "Inter",
+                        fontWeight: 600,
+                        fontSize: "24px",
+                        color: "#FFFFFF",
+                      }}
+                    >
+                      {s.title}
+                    </Typography>
+                    <Typography
+                      sx={{
+                        fontFamily: "Inter",
+                        fontWeight: 600,
+                        fontSize: "18px",
+                        color: "#FFFFFF",
+                        mt: "20px",
+                      }}
+                    >
+                      {s.subtitle}
+                    </Typography>
+                    <Button
+                      sx={{
+                        mt: "20px",
+                        border: "1px solid #8E74FF",
+                        borderRadius: "50px",
+                        width: "108px",
+                        height: "50px",
+                        color: "#8E74FF",
+                      }}
+                    >
+                      {s.view}
+                    </Button>
+                  </Box>
+                </SwiperSlide>
+                <Box ref={navigationPrevRef} className="cursor-pointer">
+                  <CardMedia
+                    src={LeftArrow}
+                    alt={LeftArrow}
+                    sx={{ width: "72px", height: "72px" }}
+                  />
                 </Box>
-              </SwiperSlide>
+                <Box ref={navigationNextRef} className="cursor-pointer">
+                  <CardMedia
+                    src={RightArrow}
+                    alt={RightArrow}
+                    sx={{ width: "72px", height: "72px" }}
+                  />
+                </Box>
+              </>
             ))}
           </Swiper>
         </Box>
