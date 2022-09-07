@@ -10,10 +10,13 @@ import Star2 from "../../assets/section1/body/Star2.png";
 import Rectangular from "../../assets/section1/body/Rectangle26.png";
 import Round from "../../assets/section1/body/round.png";
 import { FormattedMessage } from "react-intl";
+import { useWindowSize } from "../../hooks/useWindowSize";
 
 function Section1() {
+  const size = useWindowSize();
   const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
   const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
+
   return (
     <Grid
       className="section1"
@@ -115,7 +118,7 @@ function Section1() {
             fontWeight: 600,
             fontSize: { xs: "10px", sm: "18px" },
             color: "#FFFFFF",
-            zIndex: 9999,
+            zIndex: { xs: 0, sm: 9999 },
           }}
         >
           The NFT marketplace witch everything for everyone

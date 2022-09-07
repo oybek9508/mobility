@@ -33,16 +33,16 @@ function Section2() {
             src={Heart}
             alt={Heart}
             sx={{
-              width: "70px",
-              height: "75px",
+              width: { xs: "40px", sm: "70px" },
+              height: { xs: "43px", sm: "75px" },
               position: "absolute",
-              right: -40,
+              right: { xs: -30, sm: -40 },
             }}
           />
           <Typography
             sx={{
               fontFamily: "Cal Sans",
-              fontSize: "16px",
+              fontSize: { xs: "12px", sm: "16px" },
               color: "#FFFFFF",
             }}
           >
@@ -51,7 +51,7 @@ function Section2() {
           <Typography
             sx={{
               fontFamily: "Cal Sans",
-              fontSize: "64px",
+              fontSize: { xs: "40px", sm: "64px" },
               color: "#81C0FE",
               textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
             }}
@@ -61,11 +61,12 @@ function Section2() {
         </Box>
         <Typography
           sx={{
-            mt: "70px",
+            mt: { xs: "30px", md: "70px" },
             fontFamily: "Tmoney RoundWind",
-            fontSize: "30px",
+            fontSize: { xs: "12px", sm: "20px", md: "30px" },
             fontWeight: 800,
             color: "#fff",
+            zIndex: { xs: 0, sm: 9999 },
           }}
         >
           가장 많은 ‘좋아요’ 수를 받은 분에게 선물을 드립니다.
@@ -81,6 +82,7 @@ function Section2() {
               height: "24px",
               bottom: "18%",
               left: "2%",
+              display: { xs: "none", md: "block" },
             }}
           />
           <CardMedia
@@ -89,8 +91,8 @@ function Section2() {
             alt={Round}
             sx={{
               position: "absolute",
-              width: "30px",
-              height: "30px",
+              width: { xs: "10px", sm: "20px", md: "30px" },
+              height: { xs: "10px", sm: "20px", md: "30px" },
               bottom: "13%",
               left: "6%",
             }}
@@ -105,6 +107,7 @@ function Section2() {
               height: "30px",
               bottom: "10%",
               left: "16%",
+              display: { xs: "none", md: "block" },
             }}
           />
           <CardMedia
@@ -113,8 +116,8 @@ function Section2() {
             alt={StarY}
             sx={{
               position: "absolute",
-              width: "60px",
-              height: "60px",
+              width: { xs: "17px", sm: "30px", md: "60px" },
+              height: { xs: "17px", sm: "30px", md: "60px" },
               bottom: "20%",
               left: "20%",
             }}
@@ -126,9 +129,8 @@ function Section2() {
             sx={{
               position: "absolute",
               width: "18%",
-              // height: "60px",
-              bottom: "30%",
-              left: "3%",
+              bottom: { xs: "25%", md: "30%" },
+              left: { xs: 0, sm: "3%" },
             }}
           />
           <Box
@@ -147,10 +149,11 @@ function Section2() {
               alt={Star}
               sx={{
                 position: "absolute",
-                width: "79px",
-                height: "79px",
+                width: { xs: "30px", sm: "50px", md: "79px" },
+                height: { xs: "30px", sm: "50px", md: "79px" },
                 top: "20%",
                 left: "23%",
+                zIndex: 9999,
               }}
             />
 
@@ -165,6 +168,7 @@ function Section2() {
                 width: "85px",
                 textAlign: "end",
                 top: "35%",
+                display: { xs: "none", sm: "block" },
               }}
             >
               NFT ART Followers Like!
@@ -188,10 +192,9 @@ function Section2() {
               src={Car}
               alt={Car}
               sx={{
-                zIndex: 9999,
+                zIndex: { xs: 99, md: 99999 },
                 position: "relative",
-                width: "48%",
-                // height: "",
+                width: { xs: "70%", sm: "48%" },
               }}
             />
             <CardMedia
@@ -200,9 +203,9 @@ function Section2() {
               alt={CarBg}
               sx={{
                 position: "absolute",
-                width: "24%",
+                width: { xs: "35%", sm: "24%" },
                 top: "18%",
-                right: "32%",
+                right: { xs: "20%", sm: "32%" },
               }}
             />
             <CardMedia
@@ -211,10 +214,10 @@ function Section2() {
               alt={World}
               sx={{
                 position: "absolute",
-                width: "30%",
-                top: "-15%",
-                right: "-10%",
-                zIndex: 9999,
+                width: { xs: "200px", md: "30%" },
+                top: { xs: "-40%", md: "-15%" },
+                right: { xs: "-30%", sm: "-10%" },
+                zIndex: 1,
               }}
             />
             <CardMedia
@@ -224,8 +227,8 @@ function Section2() {
               sx={{
                 position: "absolute",
                 width: "20%",
-                top: "24%",
-                right: "5%",
+                top: { xs: "40%", sm: "24%" },
+                right: { xs: 0, md: "5%" },
               }}
             />
             <CardMedia
@@ -238,6 +241,7 @@ function Section2() {
                 height: "60px",
                 top: "53%",
                 right: "10%",
+                display: { xs: "none", md: "block" },
               }}
             />
             <CardMedia
@@ -246,8 +250,8 @@ function Section2() {
               alt={Star2}
               sx={{
                 position: "absolute",
-                width: "24px",
-                height: "24px",
+                width: { xs: "16px", sm: "24px" },
+                height: { xs: "16px", sm: "24px" },
                 bottom: "20%",
                 right: "3%",
               }}
@@ -258,9 +262,9 @@ function Section2() {
               alt={Round}
               sx={{
                 position: "absolute",
-                width: "20px",
-                height: "20px",
-                bottom: "7%",
+                width: { xs: "8px", sm: "20px" },
+                height: { xs: "8px", sm: "20px" },
+                bottom: { xs: 0, md: "7%" },
                 right: "19%",
               }}
             />
@@ -276,6 +280,7 @@ function Section2() {
                 width: "200px",
                 textAlign: "start",
                 top: { xs: "80%", md: "71%" },
+                display: { xs: "none", sm: "block" },
               }}
             >
               <span style={{ color: "#D7C19A" }}>Like!,</span> 여러분의 NFT를

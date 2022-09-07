@@ -9,6 +9,9 @@ import {
 import { useState } from "react";
 import { HeaderImgs } from "../assets/section1/header/index";
 import Hamburger from "../assets/section1/header/hamburger.png";
+import LoginBtn from "../assets/section1/header/login_btn.png";
+import MenuDrawer from "./MenuDrawer";
+import Language from "./Language";
 
 const { Vector } = HeaderImgs;
 
@@ -25,6 +28,7 @@ const navArr = [
 function Header() {
   const [open, setOpen] = useState(false);
   const [lang, setLang] = useState("KOR");
+  const [openMenu, setOpenMenu] = useState(false);
   console.log("lang", lang);
 
   const handleChange = () => {
@@ -33,6 +37,10 @@ function Header() {
 
   const handleLang = (language) => {
     setLang(language);
+  };
+
+  const toggleDrawer = () => {
+    setOpenMenu(!openMenu);
   };
 
   return (
@@ -74,55 +82,7 @@ function Header() {
               >
                 {nav}
               </Typography>
-              {idx === 6 && (
-                <>
-                  <Typography
-                    sx={{
-                      fontFamily: "Noto Sans",
-                      fontWeight: 600,
-                      fontSize: {
-                        xs: "12px",
-                        sm: "10px",
-                        md: "16px",
-                        lg: "20px",
-                      },
-                      color: "#FFFFFF",
-                    }}
-                  >
-                    {lang}
-                  </Typography>
-                  <Box sx={{ ml: "5px" }}>
-                    <CardMedia
-                      onChange={handleChange}
-                      component="img"
-                      src={Vector}
-                      alt={Vector}
-                      sx={{ height: "8px", width: "16px" }}
-                    />
-                  </Box>
-                  <Box
-                    sx={{
-                      display: open ? "block" : "none",
-                      position: "absolute",
-                      top: "100%",
-                      zIndex: 9999,
-                      left: -15,
-                      mt: "10px",
-                    }}
-                  >
-                    <Card
-                      elevation={3}
-                      sx={{
-                        p: "0.5rem",
-                        width: "100%",
-                      }}
-                    >
-                      <MenuItem onClick={() => handleLang("KOR")}>KOR</MenuItem>
-                      <MenuItem onClick={() => handleLang("ENG")}>ENG</MenuItem>
-                    </Card>
-                  </Box>
-                </>
-              )}
+              {idx === 6 && <Language handleLang={handleLang} lang={lang} />}
             </Box>
           </Box>
         </a>
@@ -145,12 +105,27 @@ function Header() {
         >
           Cartverse
         </Typography>
-        <CardMedia
-          component="img"
-          sx={{ width: "24px", width: "24px", color: "#fff" }}
-          src={Hamburger}
-          alt={Hamburger}
-        />
+        <Box sx={{ display: "flex", alignItems: "center" }}>
+          <CardMedia
+            component="img"
+            sx={{ width: "76px", height: "24px", color: "#fff", mr: 1 }}
+            src={LoginBtn}
+            alt={LoginBtn}
+          />
+          <CardMedia
+            onClick={toggleDrawer}
+            component="img"
+            sx={{ width: "24px", height: "24px", color: "#fff" }}
+            src={Hamburger}
+            alt={Hamburger}
+          />
+          <MenuDrawer
+            toggleDrawer={toggleDrawer}
+            openMenu={openMenu}
+            handleLang={handleLang}
+            lang={lang}
+          />
+        </Box>
       </Box>
     </Grid>
   );
