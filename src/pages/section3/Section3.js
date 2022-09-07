@@ -141,7 +141,7 @@ function Section3() {
                     alt={s.image}
                     sx={{
                       width: { xs: "80%", md: "80%", lg: "80%" },
-                      height: { xs: "80%", sm: "70%", md: "70%", lg: "80%" },
+                      height: { xs: "80%", sm: "70%", md: "70%", lg: "100%" },
                       borderRadius: "25px",
                       ml: "40px",
                     }}
