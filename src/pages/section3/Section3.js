@@ -38,6 +38,24 @@ const swiperData = [
     view: "view",
     image: Car3,
   },
+  {
+    title: "#23 Power Porche",
+    subtitle: "Yellow Super Car Collection #13",
+    view: "view",
+    image: Car1,
+  },
+  {
+    title: "#1 Power Porche",
+    subtitle: "Future Super Car Collection #01",
+    view: "view",
+    image: Car2,
+  },
+  {
+    title: "#3 White Porche",
+    subtitle: "White Super Car Collection #03",
+    view: "view",
+    image: Car3,
+  },
 ];
 
 function Section3() {
@@ -105,7 +123,7 @@ function Section3() {
         </Box>
         <Box
           sx={{
-            height: { xs: "430px", sm: "690px" },
+            height: { xs: "430px", sm: "auto" },
             width: "90%",
             mt: "70px",
           }}
@@ -118,11 +136,6 @@ function Section3() {
             breakpoints={{
               600: {
                 slidesPerView: 2,
-                navigation: false,
-              },
-              900: {
-                navigation: true,
-                slidesPerView: 3,
               },
               1200: {
                 slidesPerView: 3,
@@ -133,91 +146,75 @@ function Section3() {
             autoplay={{ delay: 3000, disableOnInteraction: false }}
           >
             {swiperData.map((s, i) => (
-              <div style={{ position: "relative", top: "15%" }}>
-                <SwiperSlide key={i}>
-                  <CardMedia
-                    src={s.image}
-                    component="img"
-                    alt={s.image}
+              <SwiperSlide key={i}>
+                <CardMedia
+                  src={s.image}
+                  component="img"
+                  alt={s.image}
+                  sx={{
+                    width: { xs: "80%", md: "80%", lg: "80%" },
+                    height: "100%",
+                    borderRadius: "25px",
+                    ml: "10%",
+                  }}
+                />
+                <Box
+                  sx={{
+                    width: "80%",
+                    top: { xs: "-150px", sm: "-170px", md: "-200px" },
+                    position: "relative",
+                    display: "flex",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    ml: "40px",
+                  }}
+                >
+                  <Typography
                     sx={{
-                      width: { xs: "80%", md: "80%", lg: "80%" },
-                      height: { xs: "80%", sm: "70%", md: "70%", lg: "100%" },
-                      borderRadius: "25px",
-                      ml: "40px",
-                    }}
-                  />
-                  <Box
-                    sx={{
-                      width: "80%",
-                      top: { xs: "-150px", sm: "-170px", md: "-200px" },
-                      position: "relative",
-                      display: "flex",
-                      justifyContent: "center",
-                      flexDirection: "column",
-                      alignItems: "center",
-                      ml: "40px",
+                      fontFamily: "Inter",
+                      fontWeight: 600,
+                      fontSize: {
+                        xs: "16px",
+                        sm: "18px",
+                        md: "20px",
+                        lg: "24px",
+                      },
+                      color: "#FFFFFF",
                     }}
                   >
-                    <Typography
-                      sx={{
-                        fontFamily: "Inter",
-                        fontWeight: 600,
-                        fontSize: {
-                          xs: "16px",
-                          sm: "18px",
-                          md: "20px",
-                          lg: "24px",
-                        },
-                        color: "#FFFFFF",
-                      }}
-                    >
-                      {s.title}
-                    </Typography>
-                    <Typography
-                      sx={{
-                        fontFamily: "Inter",
-                        fontWeight: 600,
-                        fontSize: {
-                          xs: "12px",
-                          sm: "14px",
-                          lg: "18px",
-                        },
-                        color: "#FFFFFF",
-                        mt: "20px",
-                      }}
-                    >
-                      {s.subtitle}
-                    </Typography>
-                    <Button
-                      sx={{
-                        mt: "20px",
-                        border: "1px solid #8E74FF",
-                        borderRadius: "50px",
-                        width: "108px",
-                        height: "50px",
-                        color: { xs: "#fff", sm: "#8E74FF" },
-                        bgcolor: { xs: "#8E74FF", sm: "transparent" },
-                      }}
-                    >
-                      {s.view}
-                    </Button>
-                  </Box>
-                </SwiperSlide>
-                <Box ref={prevRef} className="cursor-pointer">
-                  <CardMedia
-                    src={LeftArrow}
-                    alt={LeftArrow}
-                    sx={{ width: "72px", height: "72px" }}
-                  />
+                    {s.title}
+                  </Typography>
+                  <Typography
+                    sx={{
+                      fontFamily: "Inter",
+                      fontWeight: 600,
+                      fontSize: {
+                        xs: "12px",
+                        sm: "14px",
+                        lg: "18px",
+                      },
+                      color: "#FFFFFF",
+                      mt: "20px",
+                    }}
+                  >
+                    {s.subtitle}
+                  </Typography>
+                  <Button
+                    sx={{
+                      mt: "20px",
+                      border: "1px solid #8E74FF",
+                      borderRadius: "50px",
+                      width: "108px",
+                      height: "50px",
+                      color: { xs: "#fff", sm: "#8E74FF" },
+                      bgcolor: { xs: "#8E74FF", sm: "transparent" },
+                    }}
+                  >
+                    {s.view}
+                  </Button>
                 </Box>
-                <Box ref={nextRef} className="cursor-pointer">
-                  <CardMedia
-                    src={RightArrow}
-                    alt={RightArrow}
-                    sx={{ width: "72px", height: "72px" }}
-                  />
-                </Box>
-              </div>
+              </SwiperSlide>
             ))}
           </Swiper>
         </Box>
