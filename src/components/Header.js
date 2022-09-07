@@ -4,7 +4,7 @@ import Hamburger from "../assets/section1/header/hamburger.png";
 import LoginBtn from "../assets/section1/header/login_btn.png";
 import MenuDrawer from "./MenuDrawer";
 import Language from "./Language";
-import CartverseVideo from "./cartverse.mp4";
+// import CartverseVideo from "./cartverse.mp4";
 
 const navArr = [
   "CARTVERSE",
@@ -36,7 +36,7 @@ function Header() {
 
   return (
     <Grid container sx={{ width: "100%", height: "955px", px: "5%" }}>
-      <video
+      {/* <video
         autoPlay
         loop
         muted
@@ -52,7 +52,7 @@ function Header() {
         }}
       >
         <source src={CartverseVideo} type="video/mp4" />
-      </video>
+      </video> */}
       <Grid
         container
         justifyContent="space-around"
