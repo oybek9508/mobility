@@ -7,69 +7,31 @@
   top: 0;
 }
 
-/* .external-buttons {
-  overflow: visible;
-
-  .swiper-button-prev,
-  &.swiper-container-rtl .swiper-button-next {
-    left: -16px;
-    right: auto;
-  }
-
-  .swiper-button-next,
-  &.swiper-container-rtl .swiper-button-prev {
-    right: -16px;
-    left: auto;
-  }
-}
-
-.swiper-button-prev,
 .swiper-button-next {
-  top: 45%;
-  width: 40px;
-  height: 40px;
-  background: #fff;
-  border: 1px solid gray;
-  border-radius: 50%;
-  color: blue;
-  font-weight: 700;
-  outline: 0;
-  transition: background-color 0.2s ease, color 0.2s ease;
-
-  "&::after" {
-    font-size: 16px;
-  }
+  background-image: url(../../assets/section3/rightArrow.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: "72px";
+  height: "72px";
 }
 
+.swiper-button-next::after {
+  display: none;
+}
 .swiper-button-prev {
-  "&:after" {
-    position: relative;
-    left: -1px;
+  background-image: url(../../assets/section3/leftArrow.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-button-prev {
+    background-image: none;
   }
 }
 
-.swiper-button-next {
-  "&:after" {
-    position: relative;
-    left: 1px;
-  }
+.swiper-button-prev::after {
+  display: none;
 }
-
-.swiper-button-prev,
-.swiper-container-rtl .swiper-button-next {
-  left: 10px;
-  right: auto;
-}
-
-.swiper-button-next,
-.swiper-container-rtl .swiper-button-prev {
-  right: 10px;
-  left: auto;
-}
-
-.swiper-button-prev.swiper-button-disabled,
-.swiper-button-next.swiper-button-disabled {
-  opacity: 0;
-  cursor: auto;
-  pointer-events: none;
-} */
