@@ -15,14 +15,14 @@ function Section6() {
       container
       flexDirection="column"
       alignItems="center"
-      sx={{ height: { xs: "800px", sm: "900px", md: "1000px", lg: "1120px" } }}
+      sx={{ height: { xs: "700px", sm: "900px", md: "1000px", lg: "1120px" } }}
     >
       <Box sx={{ position: "relative", mt: "160px" }}>
         <Typography
           sx={{
             fontFamily: "Cal Sans",
             fontWeight: 600,
-            fontSize: "64px",
+            fontSize: { xs: "40px", sm: "64px" },
             color: "#FFFFFF",
           }}
         >
@@ -32,10 +32,10 @@ function Section6() {
           src={Bitcoin}
           component="img"
           sx={{
-            width: "126px",
+            width: { xs: "43px", sm: "126px" },
             position: "absolute",
-            top: "-39px",
-            right: "-103px",
+            top: { xs: "-15px", sm: "-39px" },
+            right: { xs: "-26px", sm: "-103px" },
           }}
           alt={Bitcoin}
         />
@@ -45,8 +45,8 @@ function Section6() {
         component="img"
         sx={{
           mt: { xs: "50px", sm: "100px", lg: "160px" },
-          width: "250px",
-          height: "140px",
+          width: { xs: "140px", sm: "250px" },
+          height: { xs: "80px", sm: "140px" },
         }}
         alt={Soon}
       />
@@ -56,14 +56,17 @@ function Section6() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          width: { xs: "210px", sm: "100%" },
         }}
       >
         <Typography
           sx={{
             fontFamily: "Tmoney RoundWind",
             fontWeight: 800,
-            fontSize: "16px",
+            fontSize: { xs: "12px", sm: "16px" },
             color: "#FFFFFF",
+            wordBreak: "keep-all",
+            textAlign: "center",
           }}
         >
           TOKEN은 카트버스 생태계에서 현금처럼 사용할 수 있는 포인트입니다.{" "}
@@ -72,8 +75,10 @@ function Section6() {
           sx={{
             fontFamily: "Tmoney RoundWind",
             fontWeight: 800,
-            fontSize: "16px",
+            fontSize: { xs: "12px", sm: "16px" },
             color: "#FFFFFF",
+            wordBreak: "keep-all",
+            textAlign: "center",
           }}
         >
           TOKEN으로 할 수 있는 놀라운 혜택들을 기대해 주세요

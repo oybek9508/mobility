@@ -1,9 +1,18 @@
 .section6 {
-  /* width: 100vw; */
-  /* height: 1120px; */
   background-color: "#000";
-  background: url(./img/section6_bg.png) no-repeat;
-  position: relative;
-  background-size: cover;
   top: 0;
+}
+@media only screen and (max-width: 900px) {
+  .section6 {
+    background: url("./img/mobile_bg.png") no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .section6 {
+    background: url("./img/section6_bg.png") no-repeat;
+    position: relative;
+    background-size: cover;
+  }
 }

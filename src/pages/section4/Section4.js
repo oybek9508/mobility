@@ -11,7 +11,7 @@ import Car from "../../assets/section4/car.png";
 const customTextStyle = {
   fontFamily: "Tmoney RoundWind",
   fontWeight: 800,
-  fontSize: "16px",
+  fontSize: { xs: "12px", sm: "16px" },
   color: "#FFFFFF",
 };
 
@@ -21,7 +21,11 @@ const TextComponent = ({ text }) => (
       src={Checked}
       alt={Checked}
       component="img"
-      sx={{ width: "32px", height: "32px", mr: "10px" }}
+      sx={{
+        width: { xs: "16px", sm: "32px" },
+        height: { xs: "16px", sm: "32px" },
+        mr: "10px",
+      }}
     />
     <Typography
       sx={{
@@ -76,17 +80,21 @@ function Section4() {
             alt={Setting}
             sx={{
               position: "relative",
-              width: "80px",
-              height: "80px",
-              top: "-10px",
-              right: "-153px",
+              width: { xs: "30px", sm: "80px" },
+              height: { xs: "30px", sm: "80px" },
+              top: { xs: 0, sm: "-10px" },
+              right: { xs: "-110px", sm: "-153px" },
             }}
           />
           <CardMedia
             src={Customize}
             component="img"
             alt={Customize}
-            sx={{ width: "250px", mt: "-40px", mb: "15px" }}
+            sx={{
+              width: { xs: "190px", sm: "250px" },
+              mt: { xs: "-20px", sm: "-40px" },
+              mb: "15px",
+            }}
           />
           <TextComponent text="구매 예정 슈퍼카 가상 커스텀 시뮬레이션 기능" />
           <TextComponent text="커스텀 카 주문제작 서비스" />
@@ -95,10 +103,10 @@ function Section4() {
             src={NFTButton}
             component="img"
             alt={NFTButton}
-            sx={{ width: "215px", mt: "35px" }}
+            sx={{ width: { xs: "150px", sm: "215px" }, mt: "35px" }}
           />
         </Box>
-        <Box sx={{ mt: "50px", width: "50%", ml: "17%" }}>
+        <Box sx={{ mt: "50px", width: { xs: "70%", sm: "50%" }, ml: "17%" }}>
           <CardMedia
             src={Car}
             component="img"
