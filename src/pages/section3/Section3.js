@@ -133,7 +133,7 @@ function Section3() {
             autoplay={{ delay: 3000, disableOnInteraction: false }}
           >
             {swiperData.map((s, i) => (
-              <>
+              <div style={{ position: "relative", top: "15%" }}>
                 <SwiperSlide key={i}>
                   <CardMedia
                     src={s.image}
@@ -217,7 +217,7 @@ function Section3() {
                     sx={{ width: "72px", height: "72px" }}
                   />
                 </Box>
-              </>
+              </div>
             ))}
           </Swiper>
         </Box>
