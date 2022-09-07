@@ -1,6 +1,5 @@
 import { Box, CardMedia, Grid, Typography } from "@mui/material";
 import { useState } from "react";
-import Header from "../../components/Header";
 import "./Section1.css";
 import CarArt from "../../assets/section1/body/CartArt.png";
 import Cartverse from "../../assets/section1/body/CARTVERSE.png";
@@ -53,7 +52,6 @@ function Section1() {
             width: "84px",
             height: "260px",
             position: "absolute",
-            top: -100,
             right: -25,
             display: { xs: "none", md: "block" },
           }}
