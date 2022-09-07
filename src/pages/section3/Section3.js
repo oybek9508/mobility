@@ -68,7 +68,7 @@ function Section3() {
       className="section3"
       id="section3"
       sx={{
-        height: { xs: "900px", sm: "1000px", md: "1100px", lg: "1190px" },
+        height: { xs: "1000px", sm: "1000px", md: "1100px", lg: "1190px" },
       }}
     >
       <Grid

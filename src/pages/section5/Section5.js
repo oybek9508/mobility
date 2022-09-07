@@ -44,7 +44,7 @@ function Section5() {
       container
       flexDirection="column"
       alignItems="center"
-      sx={{ height: { xs: "600px", sm: "700px", md: "900px", lg: "1120px" } }}
+      sx={{ height: { xs: "700px", sm: "800px", md: "900px", lg: "1200px" } }}
     >
       <CardMedia
         component="img"
@@ -63,7 +63,7 @@ function Section5() {
           display: "flex",
           alignItems: "center",
           flexDirection: "column",
-          mt: "-100px",
+          // mt: {"-100px"},
           position: "relative",
         }}
       >
@@ -85,6 +85,7 @@ function Section5() {
             fontWeight: 800,
             fontSize: "16px",
             color: "#FFFFFF",
+            // mt: { lg: "100px" },
           }}
         >
           NFT

@@ -8,6 +8,7 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import { HeaderImgs } from "../assets/section1/header/index";
+import Hamburger from "../assets/section1/header/hamburger.png";
 
 const { Vector } = HeaderImgs;
 
@@ -39,7 +40,7 @@ function Header() {
       container
       justifyContent="space-around"
       alignItems="center"
-      sx={{ height: "150px", width: "100%" }}
+      sx={{ height: { xs: "100px", sm: "150px" }, width: "100%" }}
     >
       {navArr.map((nav, idx) => (
         <a
@@ -54,7 +55,7 @@ function Header() {
           }
           style={{ textDecoration: "none" }}
         >
-          <Box>
+          <Box sx={{ display: { xs: "none", sm: "flex" } }}>
             <Box
               position="relative"
               onClick={idx === 6 && handleChange}
@@ -81,7 +82,7 @@ function Header() {
                       fontWeight: 600,
                       fontSize: {
                         xs: "12px",
-                        sm: "12px",
+                        sm: "10px",
                         md: "16px",
                         lg: "20px",
                       },
@@ -126,6 +127,31 @@ function Header() {
           </Box>
         </a>
       ))}
+      <Box
+        sx={{
+          width: "100%",
+          display: { xs: "flex", sm: "none" },
+          justifyContent: "space-between",
+        }}
+      >
+        <Typography
+          sx={{
+            fontFamily: "Cal Sans",
+            fontStyle: "normal",
+            fontWeight: 600,
+            fontSize: "20px",
+            color: "#FFFFFF",
+          }}
+        >
+          Cartverse
+        </Typography>
+        <CardMedia
+          component="img"
+          sx={{ width: "24px", width: "24px", color: "#fff" }}
+          src={Hamburger}
+          alt={Hamburger}
+        />
+      </Box>
     </Grid>
   );
 }

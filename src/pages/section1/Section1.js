@@ -39,6 +39,7 @@ function Section1() {
             position: "absolute",
             bottom: -100,
             left: { xs: 0, md: 50, lg: 100 },
+            display: { xs: "none", md: "block" },
           }}
           alt={Rectangular}
         />
@@ -51,6 +52,7 @@ function Section1() {
             position: "absolute",
             top: -100,
             right: -25,
+            display: { xs: "none", md: "block" },
           }}
           alt={Rectangular}
         />
@@ -63,6 +65,7 @@ function Section1() {
             position: "absolute",
             bottom: 20,
             right: 50,
+            display: { xs: "none", md: "block" },
           }}
           alt={Round}
         />
@@ -70,6 +73,7 @@ function Section1() {
           component="img"
           src={Star1}
           sx={{
+            display: { xs: "none", md: "block" },
             width: "60px",
             height: "60px",
             position: "absolute",
@@ -82,6 +86,7 @@ function Section1() {
           component="img"
           src={Star2}
           sx={{
+            display: { xs: "none", md: "block" },
             width: "26px",
             height: "26px",
             mt: "35px",
@@ -94,6 +99,7 @@ function Section1() {
           component="img"
           src={Star1}
           sx={{
+            display: { xs: "none", md: "block" },
             width: "33px",
             height: "33px",
             position: "absolute",
@@ -107,7 +113,7 @@ function Section1() {
             mt: "40px",
             fontFamily: "Cal Sans",
             fontWeight: 600,
-            fontSize: "18px",
+            fontSize: { xs: "10px", sm: "18px" },
             color: "#FFFFFF",
             zIndex: 9999,
           }}
@@ -117,13 +123,13 @@ function Section1() {
         <CardMedia
           component="img"
           src={CarArt}
-          sx={{ width: "60%", mt: "50px" }}
+          sx={{ width: { xs: "260px", sm: "60%" }, mt: "50px" }}
           alt={CarArt}
         />
         <CardMedia
           component="img"
           src={Cartverse}
-          sx={{ width: "30%", mt: "20px" }}
+          sx={{ width: { xs: "208px", sm: "30%" }, mt: "20px" }}
           alt={Cartverse}
         />
         <Typography
@@ -131,7 +137,7 @@ function Section1() {
             mt: "40px",
             fontFamily: "Tmoney RoundWind",
             fontWeight: 800,
-            fontSize: "20px",
+            fontSize: { xs: "16px", sm: "20px" },
             color: "#FFFFFF",
           }}
         >
@@ -141,7 +147,7 @@ function Section1() {
           sx={{
             fontFamily: "Tmoney RoundWind",
             fontWeight: 800,
-            fontSize: "20px",
+            fontSize: { xs: "16px", sm: "20px" },
             color: "#FFFFFF",
           }}
         >
