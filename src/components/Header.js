@@ -1,20 +1,10 @@
-import {
-  Box,
-  Card,
-  CardMedia,
-  Grid,
-  MenuItem,
-  Typography,
-} from "@mui/material";
+import { Box, CardMedia, Grid, Typography } from "@mui/material";
 import { useState } from "react";
-import { HeaderImgs } from "../assets/section1/header/index";
 import Hamburger from "../assets/section1/header/hamburger.png";
 import LoginBtn from "../assets/section1/header/login_btn.png";
 import MenuDrawer from "./MenuDrawer";
 import Language from "./Language";
 import CartverseVideo from "../assets/section1/header/cartverse.mp4";
-
-const { Vector } = HeaderImgs;
 
 const navArr = [
   "CARTVERSE",
