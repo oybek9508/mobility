@@ -12,7 +12,7 @@ import World2 from "../../assets/section5/world2.png";
 const customTextStyle = {
   fontFamily: "Tmoney RoundWind",
   fontWeight: 800,
-  fontSize: "16px",
+  fontSize: { xs: "12px", sm: "16px" },
   color: "#FFFFFF",
 };
 
@@ -22,7 +22,11 @@ const TextComponent = ({ text }) => (
       src={Checked}
       alt={Checked}
       component="img"
-      sx={{ width: "32px", height: "32px", mr: "10px" }}
+      sx={{
+        width: { xs: "16px", sm: "32px" },
+        height: { xs: "16px", sm: "32px" },
+        mr: "10px",
+      }}
     />
     <Typography
       sx={{
@@ -44,7 +48,7 @@ function Section5() {
       container
       flexDirection="column"
       alignItems="center"
-      sx={{ height: { xs: "600px", sm: "700px", md: "900px", lg: "1120px" } }}
+      sx={{ height: { xs: "700px", sm: "800px", md: "900px", lg: "1200px" } }}
     >
       <CardMedia
         component="img"
@@ -63,7 +67,7 @@ function Section5() {
           display: "flex",
           alignItems: "center",
           flexDirection: "column",
-          mt: "-100px",
+          // mt: {"-100px"},
           position: "relative",
         }}
       >
@@ -72,11 +76,11 @@ function Section5() {
           src={Percent}
           alt={Percent}
           sx={{
-            width: "64px",
-            height: "90px",
+            width: { xs: "31px", sm: "64px" },
+            height: { xs: "44px", sm: "90px" },
             position: "absolute",
-            left: "-45px",
-            top: "-20px",
+            left: { xs: "-8px", sm: "-55px", md: "-45px" },
+            top: { xs: "15px", sm: "-20px" },
           }}
         />
         <Typography
@@ -85,6 +89,7 @@ function Section5() {
             fontWeight: 800,
             fontSize: "16px",
             color: "#FFFFFF",
+            // mt: { lg: "100px" },
           }}
         >
           NFT
@@ -93,9 +98,13 @@ function Section5() {
           sx={{
             fontFamily: "Tmoney RoundWind",
             fontWeight: 800,
-            fontSize: { xs: "20px", sm: "32px", md: "48px", lg: "64px" },
+            fontSize: { xs: "24px", sm: "32px", md: "48px", lg: "64px" },
             color: " #81C0FE",
             textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            wordBreak: "keep-all",
+            width: { xs: "195px", sm: "100%" },
+            textAlign: "center",
+            zIndex: 99,
           }}
         >
           자동차 모델링 디자인 거래

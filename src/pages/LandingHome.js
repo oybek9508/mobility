@@ -9,10 +9,12 @@ import Section7 from "./section7/Section7";
 import Section8 from "./section8/Section8";
 
 import "./main.css";
+import Header from "../components/Header";
 
 function LandingHome() {
   return (
     <div style={{ backgroundColor: "#1c1b18", overflowX: "hidden" }}>
+      <Header />
       <Section1 />
       <Section2 />
       <Section3 />

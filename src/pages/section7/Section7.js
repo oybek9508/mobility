@@ -10,8 +10,9 @@ import AppStore from "../../assets/section7/apple.png";
 const customTextStyle = {
   fontFamily: "Tmoney RoundWind",
   fontWeight: 800,
-  fontSize: "18px",
+  fontSize: { xs: "12px", sm: "18px" },
   color: "#FFFFFF",
+  wordBreak: "keep-all",
 };
 
 function Section7() {
@@ -22,23 +23,37 @@ function Section7() {
       <Grid
         container
         justifyContent="space-between"
-        flexDirection={{ xs: "column", md: "row" }}
-        alignItems="center"
-        sx={{ width: { xs: "95%", lg: "80%" }, mt: "100px", py: "10%" }}
+        flexDirection={{ xs: "column-reverse", md: "row" }}
+        alignItems={{ xs: "flex-start", sm: "center" }}
+        sx={{
+          width: { xs: "95%", lg: "80%" },
+          mt: "100px",
+          py: "10%",
+        }}
       >
         <CardMedia
           src={Car}
           alt={Car}
-          sx={{ width: { xs: "300px", sm: "315px", md: "40%" } }}
+          sx={{
+            width: { xs: "300px", sm: "315px", md: "40%" },
+            ml: { xs: "-90px", sm: 0 },
+            mt: { xs: 0, sm: 5, md: 0 },
+          }}
           component="img"
         />
-        <Box sx={{ display: "flex", flexDirection: "column" }}>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            px: { xs: "5%", sm: 0 },
+          }}
+        >
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <Typography
               sx={{
                 fontFamily: "Cal Sans",
                 fontWeight: 600,
-                fontSize: "64px",
+                fontSize: { xs: "40px", sm: "64px" },
                 color: "#81C0FE",
                 textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
               }}
@@ -58,8 +73,9 @@ function Section7() {
           <Typography
             sx={{
               ...customTextStyle,
-              fontSize: "24px",
-              color: "#BDBDF9",
+              fontSize: { xs: "14px", sm: "24px" },
+              color: "#7F64F7",
+              fontWeight: "bold",
             }}
           >
             카트버스가 곧 출시돼요!{" "}
@@ -82,13 +98,13 @@ function Section7() {
               src={GooglePlay}
               alt={GooglePlay}
               component="img"
-              sx={{ width: "240px" }}
+              sx={{ width: { xs: "45%", sm: "240px" } }}
             />
             <CardMedia
               src={AppStore}
               alt={AppStore}
               component="img"
-              sx={{ width: "240px", ml: "24px" }}
+              sx={{ width: { xs: "45%", sm: "240px" }, ml: "24px" }}
             />
           </Box>
         </Box>
