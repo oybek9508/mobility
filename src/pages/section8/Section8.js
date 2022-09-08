@@ -138,7 +138,7 @@ function Section8() {
               <Typography sx={{ ...customTextStyle }}>운영정책</Typography>
             </a>
           </Box>
-          {/* <SocialBox /> */}
+          <SocialBox />
         </Box>
 
         <Box
@@ -222,9 +222,9 @@ function Section8() {
             </Typography>
           </a>
         </Box>
-        {/* <Box sx={{ mt: "40px", display: "flex", justifyContent: "center" }}>
+        <Box sx={{ mt: "40px", display: "flex", justifyContent: "center" }}>
           <SocialBox />
-        </Box> */}
+        </Box>
         <Box sx={{ display: "flex", justifyContent: "center", mt: "20px" }}>
           <Typography sx={{ ...customTextStyle1 }}>
             ⓒ MARVRUS. Inc. All Rights Reserved

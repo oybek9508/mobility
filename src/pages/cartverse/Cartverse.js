@@ -155,12 +155,12 @@ function Cartverse() {
         >
           Web 3.0 커뮤니티
         </Typography>
-        {/* <CardMedia
+        <CardMedia
           component="img"
           src={CustomButton}
           sx={{ width: "180px", mt: "20px" }}
           alt={CustomButton}
-        /> */}
+        />
       </Box>
     </Grid>
   );

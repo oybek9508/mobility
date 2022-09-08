@@ -99,12 +99,12 @@ function Section4() {
           <TextComponent text="구매 예정 슈퍼카 가상 커스텀 시뮬레이션 기능" />
           <TextComponent text="커스텀 카 주문제작 서비스" />
           <TextComponent text="프로필 인증 및 굿즈, 피규어 제공" />
-          {/* <CardMedia
+          <CardMedia
             src={NFTButton}
             component="img"
             alt={NFTButton}
             sx={{ width: { xs: "150px", sm: "215px" }, mt: "35px" }}
-          /> */}
+          />
         </Box>
         <Box sx={{ mt: "50px", width: { xs: "70%", sm: "50%" }, ml: "17%" }}>
           <CardMedia
