@@ -40,29 +40,28 @@ function Header() {
       container
       sx={{
         width: "100%",
-        height: { xs: "400px", sm: "700px", md: "955px" },
-        px: "5%",
-        position: "relative",
-        overflow: "hidden",
+        height: "50px",
+        // px: "5%",
+        // position: "relative",
       }}
     >
-      <video
+      {/* <video
         autoPlay
         loop
         muted
         playsInline
         style={{
           width: "100%",
-          height: "100%",
+          height: "100% !important",
           position: "absolute",
           left: "50%",
-          top: "50%",
-          objectFit: "cover",
+          top: "15%",
+          objectFit: "contain",
           transform: "translate(-50%, -50%)",
         }}
       >
         <source src={cartverseVideo} type="video/mp4" />
-      </video>
+      </video> */}
       <Grid
         container
         justifyContent="space-around"
