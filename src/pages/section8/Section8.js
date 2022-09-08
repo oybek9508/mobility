@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Grid, Box, CardMedia, Typography, Divider } from "@mui/material";
 import { useState } from "react";
 import { FormattedMessage } from "react-intl";
@@ -22,6 +23,10 @@ const customTextStyle1 = {
   fontWeight: 400,
   fontSize: "14px",
   color: "#666666",
+};
+
+const linkStyle = {
+  textDecoration: "none",
 };
 
 const CustomText = ({ text }) => (
@@ -119,11 +124,19 @@ function Section8() {
               src={Logo}
               sx={{ width: { xs: "150px", sm: "200px", md: "285px" } }}
             />
-            <Typography sx={{ ...customTextStyle }}>이용약관</Typography>
-            <Typography sx={{ ...customTextStyle }}>
-              개인정보처리방침
-            </Typography>
-            <Typography sx={{ ...customTextStyle }}>운영정책</Typography>
+            <a href="" style={{ ...linkStyle }}>
+              {" "}
+              <Typography sx={{ ...customTextStyle }}>이용약관</Typography>
+            </a>
+            <a href="" style={{ ...linkStyle }}>
+              {" "}
+              <Typography sx={{ ...customTextStyle }}>
+                개인정보처리방침
+              </Typography>
+            </a>
+            <a href="" style={{ ...linkStyle }}>
+              <Typography sx={{ ...customTextStyle }}>운영정책</Typography>
+            </a>
           </Box>
           <SocialBox />
         </Box>
@@ -181,34 +194,42 @@ function Section8() {
         <Box
           sx={{ mt: "45px", display: "flex", justifyContent: "space-between" }}
         >
-          <Typography
-            sx={{
-              ...customTextStyle1,
-            }}
-          >
-            회사소개
-          </Typography>
-          <Typography
-            sx={{
-              ...customTextStyle1,
-            }}
-          >
-            개인정보처리방침
-          </Typography>
-          <Typography
-            sx={{
-              ...customTextStyle1,
-            }}
-          >
-            이용약관
-          </Typography>
-          <Typography
-            sx={{
-              ...customTextStyle1,
-            }}
-          >
-            FAQ
-          </Typography>
+          <a href="" style={{ ...linkStyle }}>
+            <Typography
+              sx={{
+                ...customTextStyle1,
+              }}
+            >
+              회사소개
+            </Typography>
+          </a>
+          <a href="" style={{ ...linkStyle }}>
+            <Typography
+              sx={{
+                ...customTextStyle1,
+              }}
+            >
+              개인정보처리방침
+            </Typography>
+          </a>
+          <a href="" style={{ ...linkStyle }}>
+            <Typography
+              sx={{
+                ...customTextStyle1,
+              }}
+            >
+              이용약관
+            </Typography>
+          </a>
+          <a href="" style={{ ...linkStyle }}>
+            <Typography
+              sx={{
+                ...customTextStyle1,
+              }}
+            >
+              FAQ
+            </Typography>
+          </a>
         </Box>
         <Box sx={{ mt: "40px", display: "flex", justifyContent: "center" }}>
           <SocialBox />
