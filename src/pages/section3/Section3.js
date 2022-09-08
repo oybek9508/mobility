@@ -201,7 +201,7 @@ function Section3() {
                   >
                     {s.subtitle}
                   </Typography>
-                  {/* <Button
+                  <Button
                     sx={{
                       mt: "20px",
                       border: "1px solid #8E74FF",
@@ -213,7 +213,7 @@ function Section3() {
                     }}
                   >
                     {s.view}
-                  </Button> */}
+                  </Button>
                 </Box>
               </SwiperSlide>
             ))}
