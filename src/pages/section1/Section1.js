@@ -19,7 +19,7 @@ function Section1() {
   return (
     <Grid
       className="section1"
-      sx={{ pb: { xs: "100px", sm: "200px", lg: "300px" } }}
+      sx={{ pb: { xs: "100px", sm: "200px", lg: "300px" }, px: "5%" }}
       id="section1"
     >
       {/* <Header /> */}
