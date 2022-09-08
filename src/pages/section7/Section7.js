@@ -94,7 +94,7 @@ function Section7() {
               justifyContent: "space-between",
             }}
           >
-            <CardMedia
+            {/* <CardMedia
               src={GooglePlay}
               alt={GooglePlay}
               component="img"
@@ -105,7 +105,7 @@ function Section7() {
               alt={AppStore}
               component="img"
               sx={{ width: { xs: "45%", sm: "240px" }, ml: "24px" }}
-            />
+            /> */}
           </Box>
         </Box>
       </Grid>
