@@ -156,7 +156,7 @@ function Section8() {
               wordBreak: "keep-all",
             }}
           >
-            서울특별시 강남구 봉은사로 16길 37 ㅣ 사업자등록번호 177F8F0119 ㅣ
+            서울특별시 강남구 봉은사로 16길 37 ㅣ 사업자등록번호 177-88-00119 ㅣ
             통신판매신고 2021-서울강남-00540 l Email: help_cartverse@marvrus.com
           </Typography>
           <Typography
@@ -200,7 +200,7 @@ function Section8() {
                 ...customTextStyle1,
               }}
             >
-              회사소개
+              이용약관
             </Typography>
           </a>
           <a href="" style={{ ...linkStyle }}>
@@ -218,16 +218,7 @@ function Section8() {
                 ...customTextStyle1,
               }}
             >
-              이용약관
-            </Typography>
-          </a>
-          <a href="" style={{ ...linkStyle }}>
-            <Typography
-              sx={{
-                ...customTextStyle1,
-              }}
-            >
-              FAQ
+              운영정책
             </Typography>
           </a>
         </Box>
@@ -236,7 +227,7 @@ function Section8() {
         </Box>
         <Box sx={{ display: "flex", justifyContent: "center", mt: "20px" }}>
           <Typography sx={{ ...customTextStyle1 }}>
-            © MARVRUS . All Rights Reserved
+            ⓒ MARVRUS. Inc. All Rights Reserved
           </Typography>
         </Box>
       </Grid>

@@ -1,5 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Box, CardMedia, Grid, Typography } from "@mui/material";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Hamburger from "../assets/section1/header/hamburger.png";
 import LoginBtn from "../assets/section1/header/login_btn.png";
 import MenuDrawer from "./MenuDrawer";
@@ -11,8 +12,8 @@ const navArr = [
   "EVENT",
   "CUSTOMIZE",
   "ROADMAP",
-  "WORLD",
-  "로그인/회원가입",
+  // "WORLD",
+  // "로그인/회원가입",
   "",
 ];
 
@@ -35,7 +36,15 @@ function Header() {
   };
 
   return (
-    <Grid container sx={{ width: "100%", height: "955px", px: "5%" }}>
+    <Grid
+      container
+      sx={{
+        width: "100%",
+        height: "955px",
+        px: "5%",
+        position: "relative",
+      }}
+    >
       <video
         autoPlay
         loop
@@ -47,7 +56,7 @@ function Header() {
           position: "absolute",
           left: "50%",
           top: "50%",
-          objectFit: "cover",
+          objectFit: "fill",
           transform: "translate(-50%, -50%)",
         }}
       >
@@ -116,12 +125,12 @@ function Header() {
             Cartverse
           </Typography>
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <CardMedia
+            {/* <CardMedia
               component="img"
               sx={{ width: "76px", height: "24px", color: "#fff", mr: 1 }}
               src={LoginBtn}
               alt={LoginBtn}
-            />
+            /> */}
             <CardMedia
               onClick={toggleDrawer}
               component="img"
