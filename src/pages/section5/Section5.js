@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Box, Card, CardMedia, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import { FormattedMessage } from "react-intl";
@@ -145,7 +146,7 @@ function Section5() {
         <TextComponent text="커스텀 요소들을 NFT로 발행하고 컬렉션을 구성" />
         <TextComponent text="인기 랭킹 제공, NFT 소유 및 거래 기능" />
         <TextComponent text="유저 창작 활동 지원" />
-        <CardMedia
+        {/* <CardMedia
           component="img"
           src={NftButton}
           alt={NftButton}
@@ -153,7 +154,7 @@ function Section5() {
             mt: "80px",
             width: "60%",
           }}
-        />
+        /> */}
       </Box>
     </Grid>
   );

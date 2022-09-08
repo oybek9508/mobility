@@ -6,7 +6,7 @@ import Language from "./Language";
 import Exit from "../assets/section1/header/exit.png";
 import { CardMedia, Typography } from "@mui/material";
 
-const navArr = ["EVENT", "CUSTOMIZE", "ROADMAP", "WORLD"];
+const navArr = ["EVENT", "CUSTOMIZE", "ROADMAP"];
 
 export default function MenuDrawer({
   toggleDrawer,
@@ -23,7 +23,7 @@ export default function MenuDrawer({
           justifyContent: "space-between",
         }}
       >
-        <Language handleLang={handleLang} lang={lang} />
+        {/* <Language handleLang={handleLang} lang={lang} /> */}
         <CardMedia
           component="img"
           sx={{ width: "24px", height: "24px" }}
@@ -50,6 +50,7 @@ export default function MenuDrawer({
                 sx={{ display: "flex", alignItems: "center" }}
               >
                 <Typography
+                  onClick={toggleDrawer}
                   sx={{
                     fontFamily: "Cal Sans",
                     fontWeight: 600,

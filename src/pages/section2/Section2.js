@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useState } from "react";
 import { FormattedMessage } from "react-intl";
 import { Grid, Typography, Box, CardMedia } from "@mui/material";

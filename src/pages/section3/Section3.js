@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useRef, useState, useEffect } from "react";
 import { FormattedMessage } from "react-intl";
 import { Box, Button, CardMedia, Grid, Typography } from "@mui/material";
@@ -200,7 +201,7 @@ function Section3() {
                   >
                     {s.subtitle}
                   </Typography>
-                  <Button
+                  {/* <Button
                     sx={{
                       mt: "20px",
                       border: "1px solid #8E74FF",
@@ -212,7 +213,7 @@ function Section3() {
                     }}
                   >
                     {s.view}
-                  </Button>
+                  </Button> */}
                 </Box>
               </SwiperSlide>
             ))}
