@@ -22,37 +22,37 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const swiperData = [
   {
-    title: "#23 Power Porche",
+    title: "#23 Power Porsche",
     subtitle: "Yellow Super Car Collection #13",
     view: "view",
     image: Car1,
   },
   {
-    title: "#1 Power Porche",
+    title: "#1 Power Porsche",
     subtitle: "Future Super Car Collection #01",
     view: "view",
     image: Car2,
   },
   {
-    title: "#3 White Porche",
+    title: "#3 White Porsche",
     subtitle: "White Super Car Collection #03",
     view: "view",
     image: Car3,
   },
   {
-    title: "#23 Power Porche",
+    title: "#23 Power Porsche",
     subtitle: "Yellow Super Car Collection #13",
     view: "view",
     image: Car1,
   },
   {
-    title: "#1 Power Porche",
+    title: "#1 Power Porsche",
     subtitle: "Future Super Car Collection #01",
     view: "view",
     image: Car2,
   },
   {
-    title: "#3 White Porche",
+    title: "#3 White Porsche",
     subtitle: "White Super Car Collection #03",
     view: "view",
     image: Car3,
