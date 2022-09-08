@@ -61,7 +61,7 @@ function Section6() {
       >
         <Typography
           sx={{
-            fontFamily: "Tmoney RoundWind",
+            fontFamily: "TmoneyRoundWind",
             fontWeight: 800,
             fontSize: { xs: "12px", sm: "16px" },
             color: "#FFFFFF",
@@ -73,7 +73,7 @@ function Section6() {
         </Typography>
         <Typography
           sx={{
-            fontFamily: "Tmoney RoundWind",
+            fontFamily: "TmoneyRoundWind",
             fontWeight: 800,
             fontSize: { xs: "12px", sm: "16px" },
             color: "#FFFFFF",

@@ -62,7 +62,7 @@ function Section2() {
         <Typography
           sx={{
             mt: { xs: "30px", md: "70px" },
-            fontFamily: "Tmoney RoundWind",
+            fontFamily: "TmoneyRoundWind",
             fontSize: { xs: "12px", sm: "20px", md: "30px" },
             fontWeight: 800,
             color: "#fff",
