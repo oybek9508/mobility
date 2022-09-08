@@ -1,6 +1,6 @@
 import { Box, CardMedia, Grid, Typography } from "@mui/material";
 import { useState } from "react";
-import "./Section1.css";
+import "./Cartverse.css";
 import CarArt from "../../assets/section1/body/CartArt.png";
 import Cartverse from "../../assets/section1/body/CARTVERSE.png";
 import CustomButton from "../../assets/section1/body/button.png";
@@ -119,7 +119,7 @@ function Section1() {
             zIndex: { xs: 0, sm: 9999 },
           }}
         >
-          The NFT marketplace witch everything for everyone
+          The NFT marketplace with everything for everyone
         </Typography>
         <CardMedia
           component="img"

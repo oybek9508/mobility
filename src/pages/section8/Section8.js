@@ -8,6 +8,7 @@ import Insta from "../../assets/section8/insta.png";
 import Kakao from "../../assets/section8/kakao.png";
 import Akar from "../../assets/section8/akar.png";
 import Telegram from "../../assets/section8/telegram.png";
+import LogoLarge from "../../assets/section8/logo_large.png";
 
 const customTextStyle = {
   fontfamily: "Inter",
@@ -87,7 +88,6 @@ const SocialBox = () => (
       src={Telegram}
       alt={Telegram}
       sx={{
-        // mr: "35px",
         width: { xs: "30px", sm: "auto" },
         height: { xs: "30px", sm: "auto" },
       }}
@@ -120,8 +120,8 @@ function Section8() {
           <Box sx={{ display: "flex", alignItems: "center", mb: "20px" }}>
             <CardMedia
               component="img"
-              alt={Logo}
-              src={Logo}
+              alt={LogoLarge}
+              src={LogoLarge}
               sx={{ width: { xs: "150px", sm: "200px", md: "285px" } }}
             />
             <a href="" style={{ ...linkStyle }}>
@@ -157,7 +157,7 @@ function Section8() {
             }}
           >
             서울특별시 강남구 봉은사로 16길 37 ㅣ 사업자등록번호 177F8F0119 ㅣ
-            통신판매신고 2021-서울강남-00540 l Email: help_eppy@marvrus.com
+            통신판매신고 2021-서울강남-00540 l Email: help_cartverse@marvrus.com
           </Typography>
           <Typography
             sx={{
@@ -189,7 +189,7 @@ function Section8() {
           <CustomText text="서울특별시 강남구 봉은사로 16길 37" />
           <CustomText text="통신판매업신고번호 2021-서울강남-00540" />
           <CustomText text="사업자등록번호 177-88-00119" />
-          <CustomText text="help_meemz@marvrus.com" />
+          <CustomText text="help_cartverse@marvrus.com" />
         </Box>
         <Box
           sx={{ mt: "45px", display: "flex", justifyContent: "space-between" }}
