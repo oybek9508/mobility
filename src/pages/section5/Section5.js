@@ -10,7 +10,7 @@ import World1 from "../../assets/section5/world1.png";
 import World2 from "../../assets/section5/world2.png";
 
 const customTextStyle = {
-  fontFamily: "Tmoney RoundWind",
+  fontFamily: "TmoneyRoundWind",
   fontWeight: 800,
   fontSize: { xs: "12px", sm: "16px" },
   color: "#FFFFFF",
@@ -85,7 +85,7 @@ function Section5() {
         />
         <Typography
           sx={{
-            fontFamily: "Tmoney RoundWind",
+            fontFamily: "TmoneyRoundWind",
             fontWeight: 800,
             fontSize: "16px",
             color: "#FFFFFF",
@@ -96,7 +96,7 @@ function Section5() {
         </Typography>
         <Typography
           sx={{
-            fontFamily: "Tmoney RoundWind",
+            fontFamily: "TmoneyRoundWind",
             fontWeight: 800,
             fontSize: { xs: "24px", sm: "32px", md: "48px", lg: "64px" },
             color: " #81C0FE",

@@ -1,5 +1,5 @@
 import React from "react";
-import Section1 from "./cartverse/Cartverse";
+import Cartverse from "./cartverse/Cartverse";
 import Section2 from "./section2/Section2";
 import Section3 from "./section3/Section3";
 import Section4 from "./section4/Section4";
@@ -15,7 +15,7 @@ function LandingHome() {
   return (
     <div style={{ backgroundColor: "#1c1b18", overflowX: "hidden" }}>
       <Header />
-      <Section1 />
+      <Cartverse />
       <Section2 />
       <Section3 />
       <Section4 />

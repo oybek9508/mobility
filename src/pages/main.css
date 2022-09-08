@@ -1,9 +1,48 @@
-/* @font-face {
+@font-face {
   font-family: "Cal Sans";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url("./fonts/webfonts/CalSans-SemiBold.woff2") format("woff2"),
-    url("./fonts/webfonts/CalSans-SemiBold.woff") format("woff"),
-    url("./fonts/webfonts/CalSans-SemiBold.ttf") format("truetype");
-} */
+  src: url("../assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../assets/fonts/noto_sans_kr/NotoSansKR-Regular.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "TmoneyRoundWind";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.ttf")
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "TmoneyRoundWind";
+  font-weight: 800;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.ttf")
+      format("truetype");
+  font-display: swap;
+}

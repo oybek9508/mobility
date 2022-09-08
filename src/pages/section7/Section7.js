@@ -8,7 +8,7 @@ import GooglePlay from "../../assets/section7/google_play.png";
 import AppStore from "../../assets/section7/apple.png";
 
 const customTextStyle = {
-  fontFamily: "Tmoney RoundWind",
+  fontFamily: "TmoneyRoundWind",
   fontWeight: 800,
   fontSize: { xs: "12px", sm: "18px" },
   color: "#FFFFFF",

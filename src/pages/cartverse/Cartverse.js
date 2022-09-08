@@ -2,7 +2,7 @@ import { Box, CardMedia, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import "./Cartverse.css";
 import CarArt from "../../assets/section1/body/CartArt.png";
-import Cartverse from "../../assets/section1/body/CARTVERSE.png";
+import CartverseImg from "../../assets/section1/body/CARTVERSE.png";
 import CustomButton from "../../assets/section1/body/button.png";
 import Star1 from "../../assets/section1/body/Star1.png";
 import Star2 from "../../assets/section1/body/Star2.png";
@@ -11,7 +11,7 @@ import Round from "../../assets/section1/body/round.png";
 import { FormattedMessage } from "react-intl";
 import { useWindowSize } from "../../hooks/useWindowSize";
 
-function Section1() {
+function Cartverse() {
   const size = useWindowSize();
   const [locale, setLocale] = useState(localStorage.getItem("locale") ?? "ko");
   const defaultMessage = "메세지를 찾을 수 없습니다. (locale: {locale})";
@@ -129,14 +129,14 @@ function Section1() {
         />
         <CardMedia
           component="img"
-          src={Cartverse}
+          src={CartverseImg}
           sx={{ width: { xs: "208px", sm: "30%" }, mt: "20px" }}
-          alt={Cartverse}
+          alt={CartverseImg}
         />
         <Typography
           sx={{
             mt: "40px",
-            fontFamily: "Tmoney RoundWind",
+            fontFamily: "TmoneyRoundWind",
             fontWeight: 800,
             fontSize: { xs: "16px", sm: "20px" },
             color: "#FFFFFF",
@@ -146,7 +146,7 @@ function Section1() {
         </Typography>
         <Typography
           sx={{
-            fontFamily: "Tmoney RoundWind",
+            fontFamily: "TmoneyRoundWind",
             fontWeight: 800,
             fontSize: { xs: "16px", sm: "20px" },
             color: "#FFFFFF",
@@ -165,4 +165,4 @@ function Section1() {
   );
 }
 
-export default Section1;
+export default Cartverse;
