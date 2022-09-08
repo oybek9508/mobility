@@ -40,9 +40,10 @@ function Header() {
       container
       sx={{
         width: "100%",
-        height: "955px",
+        // height: { xs: "400px", sm: "700px", md: "955px" },
         px: "5%",
         position: "relative",
+        overflow: "hidden",
       }}
     >
       <video
