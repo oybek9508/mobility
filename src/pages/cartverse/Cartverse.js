@@ -117,7 +117,7 @@ function Cartverse() {
             fontWeight: 600,
             fontSize: { xs: "10px", sm: "18px" },
             color: "#FFFFFF",
-            zIndex: { xs: 0, sm: 9999 },
+            zIndex: { xs: 0, sm: 9998 },
           }}
         >
           The NFT marketplace with everything for everyone

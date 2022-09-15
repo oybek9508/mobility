@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Cartverse from "./cartverse/Cartverse";
 import Section2 from "./section2/Section2";
 import Section3 from "./section3/Section3";
@@ -10,20 +10,33 @@ import Section8 from "./section8/Section8";
 
 import "./main.css";
 import Header from "../components/Header";
+import Intro from "../components/Intro";
+import Dim from "../components/Dim";
+import { isDesktop } from "react-device-detect";
 
 function LandingHome() {
+  const [intro, setIntro] = useState(isDesktop);
+  const [dim, setDim] = useState(isDesktop);
+
   return (
-    <div style={{ backgroundColor: "#1c1b18", overflowX: "hidden" }}>
-      <Header />
-      <Cartverse />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Section8 />
-    </div>
+    <>
+      {intro ? (
+        <Intro onOff={() => setIntro(false)} />
+      ) : (
+        <div style={{ backgroundColor: "#1c1b18", overflowX: "hidden" }}>
+          {dim && <Dim onOff={() => setDim(false)} />}
+          <Header />
+          <Cartverse />
+          <Section2 />
+          <Section3 />
+          <Section4 />
+          <Section5 />
+          <Section6 />
+          <Section7 />
+          <Section8 />
+        </div>
+      )}
+    </>
   );
 }
 
