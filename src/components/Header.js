@@ -5,7 +5,6 @@ import Hamburger from "../assets/section1/header/hamburger.png";
 import LoginBtn from "../assets/section1/header/login_btn.png";
 import MenuDrawer from "./MenuDrawer";
 import Language from "./Language";
-import cartverseVideo from "../assets/section1/header/cartverse.mp4";
 
 const navArr = [
   "CARTVERSE",
@@ -69,6 +68,7 @@ function Header() {
         sx={{ height: { xs: "100px", sm: "150px" }, width: "100%", px: "5%" }}
       >
         {navArr.map((nav, idx) => (
+          // eslint-disable-next-line react/jsx-key
           <a
             href={
               idx === 0
@@ -147,7 +147,6 @@ function Header() {
           </Box>
         </Box>
       </Grid>
-      //{" "}
     </Grid>
   );
 }

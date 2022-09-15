@@ -67,7 +67,7 @@ function Section2() {
             fontSize: { xs: "12px", sm: "20px", md: "30px" },
             fontWeight: 800,
             color: "#fff",
-            zIndex: { xs: 0, sm: 9999 },
+            zIndex: { xs: 0, sm: 9998 },
           }}
         >
           가장 많은 ‘좋아요’ 수를 받은 분에게 선물을 드립니다.
