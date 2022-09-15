@@ -10,8 +10,5 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {
-    "react/prop-types": 1,
-    "react/react-in-jsx-scope": 0
-  }
+  "rules": {}
 }
