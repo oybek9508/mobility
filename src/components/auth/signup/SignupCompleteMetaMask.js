@@ -31,7 +31,7 @@ const SignupCompleteMetaMask = (props) => {
   });
 
   const handleClickNext = () => {
-    router.push("/nft-auth/sign-up/complete");
+    router.push("/auth/sign-up/complete");
   };
 
   const updateUser = async () => {
@@ -51,7 +51,7 @@ const SignupCompleteMetaMask = (props) => {
     async function handleConnect() {
       const fetchedWallet = await Api.getWallet();
       if (!fetchedWallet) await updateUser();
-      router.push("/nft-auth/sign-up/complete");
+      router.push("/auth/sign-up/complete");
     }
     if (isSuccess) handleConnect();
   }, [isSuccess]);

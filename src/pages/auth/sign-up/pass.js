@@ -10,8 +10,8 @@ import PersonIcon from "@mui/icons-material/Person";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Layout from "src/components/Layout";
-import LoginLogo from "src/components/nft-auth/login/LoginLogo";
-import PassAuthForm from "src/components/nft-auth/signup/PassAuthForm";
+import LoginLogo from "src/components/auth/login/LoginLogo";
+import PassAuthForm from "src/components/auth/signup/PassAuthForm";
 
 const NftPassAuth = () => {
   return (

@@ -18,7 +18,7 @@ const UserInfo = () => {
     if (accessToken) return;
     alert(intl.formatMessage({ id: "alert_msg_wrong_access" }));
     setTimeout(() => {
-      router.push("/nft-auth/login");
+      router.push("/auth/login");
     }, 500);
   }, []);
 

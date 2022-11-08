@@ -1,6 +1,6 @@
 import { Button, Grid } from "@mui/material";
 import React from "react";
-import { useRouter } from "next/Router";
+import { useRouter } from "next/router";
 import Checkbox from "@mui/material/Checkbox";
 import FlexBox from "src/components/FlexBox";
 import { H6 } from "src/components/Typography";

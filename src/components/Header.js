@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import MenuDrawer from "./MenuDrawer";
 import Language from "./Language";
 import Link from "next/link";
-import { useRouter } from "next/Router";
+import { useRouter } from "next/router";
 import { H6 } from "./Typography";
 import { FormattedMessage } from "react-intl";
 import useAuth from "src/hooks/useAuth";

@@ -2,7 +2,6 @@
 import { Box, CardMedia, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import { FormattedMessage } from "react-intl";
-import Image from "next/Image";
 import CustomButton from "../CustomButton";
 
 const Cartverse = () => {

@@ -12,7 +12,7 @@ import {
   ServicePolicyPopup,
   PrivacyPolicyPopup,
   MarketingPolicyPopup,
-} from "src/components/nft-auth/signup/components/sign-up/components/AgreementPopup";
+} from "src/components/auth/signup/components/sign-up/components/AgreementPopup";
 import AuthApi from "src/api/auth-api";
 import { useIntl, FormattedMessage } from "react-intl";
 
@@ -32,7 +32,7 @@ const SnsSignupAgreementForm = (props) => {
 
   useEffect(() => {
     if (signupUser.moonCode || !socialUser.accessToken) {
-      let path = "/nft-auth/login";
+      let path = "/auth/login";
       const accessToken = window.localStorage.getItem("accessToken");
       if (accessToken) path = "/";
       alert(intl.formatMessage({ id: "alert_msg_wrong_access" }));
@@ -72,16 +72,16 @@ const SnsSignupAgreementForm = (props) => {
           res.data.marvrusUser.signupDt,
           res.data.marvrusUser.moonCode
         );
-        router.push("/nft-auth/sns-sign-up/complete");
+        router.push("/auth/sns-sign-up/complete");
       } else {
         alert(err.response.data.message);
-        router.push("/nft-auth/login");
+        router.push("/auth/login");
       }
 
       // 회원가입 완료 페이지 이동
     } catch (err) {
       alert(err.response.data.message);
-      router.push("/nft-auth/login");
+      router.push("/auth/login");
     }
   };
 

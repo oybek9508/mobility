@@ -21,7 +21,7 @@ const NftPassAuthComplete = () => {
   //   const err = query.get("err");
   const { setPassInfoValue, setPassInfoObject } = useSignup();
   const handleClickConfirm = () => {
-    router.push("/nft-auth/login");
+    router.push("/auth/login");
   };
 
   useEffect(() => {
@@ -73,7 +73,7 @@ const NftPassAuthComplete = () => {
         parentAgreement: isOverFourteen === "true" ? "N" : "Y",
       });
       //   console.log(`res2.data.data`, res2.data.data);
-      router.push(`/nft-auth/sign-up/agreement?passComplete=true`);
+      router.push(`/auth/sign-up/agreement?passComplete=true`);
     } catch (err) {
       // console.log(err)
       console.log(`err.response.data.message`, err.response.data.message);
@@ -134,7 +134,7 @@ const NftPassAuthComplete = () => {
         >
           <Typography>{popupContent.title}</Typography>
           {popupContent.subText.map((v) => (
-            <Typography>{v}</Typography>
+            <Typography key={v}>{v}</Typography>
           ))}
         </Box>
         <Box pt={3} pb={2} sx={{ width: "10rem" }}>

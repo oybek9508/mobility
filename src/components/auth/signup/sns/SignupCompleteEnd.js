@@ -28,7 +28,7 @@ const SignupCompleteEnd = (props) => {
   // console.log('user', user)
 
   const handleClickNext = () => {
-    router.push("/nft-auth/login");
+    router.push("/auth/login");
   };
 
   const getUserEvent = async () => {
@@ -46,7 +46,7 @@ const SignupCompleteEnd = (props) => {
 
   useEffect(() => {
     if (!socialUser.accessToken) {
-      let path = "/nft-auth/login";
+      let path = "/auth/login";
       const accessToken = window.localStorage.getItem("accessToken");
       if (accessToken) path = "/";
       alert(intl.formatMessage({ id: "alert_msg_wrong_access" }));
