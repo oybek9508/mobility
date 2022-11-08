@@ -1,30 +1,49 @@
 /* eslint-disable react/react-in-jsx-scope */
-import { Box, CardMedia, Grid, Typography } from "@mui/material";
+import { Box, CardMedia, Grid, Typography, Button } from "@mui/material";
 import { useEffect, useState } from "react";
-import Hamburger from "../assets/section1/header/hamburger.png";
-import LoginBtn from "../assets/section1/header/login_btn.png";
 import MenuDrawer from "./MenuDrawer";
 import Language from "./Language";
+import Link from "next/link";
+import { useRouter } from "next/Router";
+import { H6 } from "./Typography";
+import { FormattedMessage } from "react-intl";
+import useAuth from "src/hooks/useAuth";
+
+const mobileLoginButtonStyle = {
+  height: "24px",
+  px: 2,
+  mr: 2,
+  background: "linear-gradient(34.4deg, #8E74FF 13.14%, #7256EF 84.87%)",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  color: "#fff",
+  borderRadius: "50px",
+  fontSize: "12px",
+  fontWeight: 600,
+};
+
+const loginButtonStyle = {
+  fontFamily: "Noto Sans",
+  fontWeight: 600,
+  fontSize: { xs: "12px", sm: "10px", md: "16px", lg: "20px" },
+  color: "#FFFFFF",
+  display: { xs: "none", sm: "block" },
+};
 
 const navArr = [
-  "CARTVERSE",
-  "EVENT",
-  "CUSTOMIZE",
-  "ROADMAP",
-  // "WORLD",
-  // "로그인/회원가입",
-  "",
+  { title: "CARTVERSE", link: "section1" },
+  { title: "EVENT", link: "section2" },
+  { title: "CUSTOMIZE", link: "section4" },
+  { title: "ROADMAP", link: "section7" },
 ];
 
 function Header() {
+  const { isAuthenticated, user, logout } = useAuth();
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [lang, setLang] = useState("KOR");
   const [openMenu, setOpenMenu] = useState(false);
-  console.log("lang", lang);
-
-  const handleChange = () => {
-    setOpen(!open);
-  };
 
   const handleLang = (language) => {
     setLang(language);
@@ -34,33 +53,29 @@ function Header() {
     setOpenMenu(!openMenu);
   };
 
+  const onHandleScrollView = (id) => {
+    setTimeout(() => {
+      document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    }, 300);
+  };
+
+  const handleLoginClick = () => {
+    router.push("/auth/login");
+  };
+
+  const handleLogout = () => {
+    logout();
+    router.push("/");
+  };
+
   return (
     <Grid
       container
       sx={{
         width: "100%",
         height: "50px",
-        // px: "5%",
-        // position: "relative",
       }}
     >
-      {/* <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        style={{
-          width: "100%",
-          height: "100% !important",
-          position: "absolute",
-          left: "50%",
-          top: "15%",
-          objectFit: "contain",
-          transform: "translate(-50%, -50%)",
-        }}
-      >
-        <source src={cartverseVideo} type="video/mp4" />
-      </video> */}
       <Grid
         container
         justifyContent="space-around"
@@ -68,43 +83,58 @@ function Header() {
         sx={{ height: { xs: "100px", sm: "150px" }, width: "100%", px: "5%" }}
       >
         {navArr.map((nav, idx) => (
-          // eslint-disable-next-line react/jsx-key
-          <a
-            href={
-              idx === 0
-                ? "#section1"
-                : idx === 1
-                ? "#section2"
-                : idx === 2
-                ? "#section4"
-                : idx === 3 && "#section7"
-            }
-            style={{ textDecoration: "none" }}
+          <Link
+            key={idx}
+            href={`#${nav.link}`}
+            style={{ textDecoration: "none", curser: "pointer" }}
           >
-            <Box sx={{ display: { xs: "none", sm: "flex" } }}>
-              <Box
-                position="relative"
-                onClick={idx === 6 && handleChange}
-                sx={{ display: "flex", alignItems: "center" }}
-              >
-                <Typography
-                  sx={{
-                    fontFamily: "Noto Sans",
-                    fontWeight: 600,
-                    fontSize:
-                      idx === 0
-                        ? { xs: "18px", md: "24px", lg: "32px" }
-                        : { xs: "12px", sm: "10px", md: "16px", lg: "20px" },
-                    color: "#FFFFFF",
-                  }}
+            <a>
+              <Box sx={{ display: { xs: "none", sm: "flex" } }}>
+                <Box
+                  position="relative"
+                  sx={{ display: "flex", alignItems: "center" }}
                 >
-                  {nav}
-                </Typography>
-                {idx === 6 && <Language handleLang={handleLang} lang={lang} />}
+                  <Button
+                    type="button"
+                    sx={{
+                      fontFamily: "Noto Sans",
+                      fontWeight: 600,
+                      fontSize:
+                        idx === 0
+                          ? { xs: "18px", md: "24px", lg: "32px" }
+                          : { xs: "12px", sm: "10px", md: "16px", lg: "20px" },
+                      color: "#FFFFFF",
+                    }}
+                  >
+                    {nav.title}
+                  </Button>
+                </Box>
               </Box>
-            </Box>
-          </a>
+            </a>
+          </Link>
         ))}
+        {isAuthenticated ? (
+          <Button
+            sx={{
+              ...loginButtonStyle,
+            }}
+            type="button"
+            onClick={handleLogout}
+          >
+            <FormattedMessage id="top_menu_logout" />
+          </Button>
+        ) : (
+          <Button
+            sx={{
+              ...loginButtonStyle,
+            }}
+            type="button"
+            onClick={handleLoginClick}
+          >
+            <FormattedMessage id="top_menu_login" />
+          </Button>
+        )}
+        <Language lang={lang} handleLang={handleLang} isMobileScreen={false} />
         <Box
           sx={{
             width: "100%",
@@ -125,18 +155,33 @@ function Header() {
             Cartverse
           </Typography>
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            {/* <CardMedia
-              component="img"
-              sx={{ width: "76px", height: "24px", color: "#fff", mr: 1 }}
-              src={LoginBtn}
-              alt={LoginBtn}
-            /> */}
+            {isAuthenticated ? (
+              <Button
+                onClick={handleLogout}
+                type="button"
+                sx={{
+                  ...mobileLoginButtonStyle,
+                }}
+              >
+                <FormattedMessage id="top_menu_logout" />
+              </Button>
+            ) : (
+              <Button
+                onClick={handleLoginClick}
+                type="button"
+                sx={{
+                  ...mobileLoginButtonStyle,
+                }}
+              >
+                <FormattedMessage id="top_menu_mobile_login" />
+              </Button>
+            )}
             <CardMedia
               onClick={toggleDrawer}
               component="img"
               sx={{ width: "24px", height: "24px", color: "#fff" }}
-              src={Hamburger}
-              alt={Hamburger}
+              src="assets/images/cartverse/header/hamburger.png"
+              alt="Hamburger"
             />
             <MenuDrawer
               toggleDrawer={toggleDrawer}

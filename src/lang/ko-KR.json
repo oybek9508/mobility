@@ -1,1 +1,387 @@
-{}
+{
+  "fandb_title": "푸드버스 X 폴콘랜드",
+  "fandb_description": "메타버스와 함께하는 폴콘을 만나보세요.",
+
+  "event_title1": "지금 신규 가입하면",
+  "event_title2": "제조 음료 1잔 무료",
+
+  "playlern_content1": "매일 재미있고 다양한 ",
+  "playlern_content2": "푸드버스를 경험해보세요",
+  "playlern_content3": "하루하루 보상이 쌓여가는 재미를 만끽하세요.",
+
+  "fncoin_comingsoon": "Coming Soon",
+  "fncoin_description": "푸드버스 코인은 F&B 메타버스 생태계에서{br}현금처럼 사용할 수 있는 포인트입니다.{br}푸드버스 코인으로 받을 수 있는 놀라운 혜택들을 기대해 주세요!",
+
+  "foodverse_description_pc": "로컬/도메스틱 신진브랜드들을 중심으로 사용자들에게{br}유니크한 식음료 문화 경험을 제공합니다. 식음료 문화에 특화된{br}새로운 메타버스, 푸드버스에 놀러오세요!",
+  "foodverse_description_mobile": "로컬/도메스틱 신진브랜드들을 중심으로{br}사용자들에게 유니크한 식음료 문화 경험을 제공합니다.{br}식음료 문화에 특화된 새로운{br}메타버스, 푸드버스에 놀러오세요!",
+
+  "top_menu_login": "로그인/회원가입",
+  "top_menu_logout": "로그아웃",
+  "top_menu_mypage": "내 정보",
+
+  "top_menu_mobile_login": "로그인",
+
+  "benefit_section_footer1": "* 6인치 폴콘 접시 4종 中 1개 랜덤 지급",
+
+  "stamp_top_title": "100% 지급! 매일 스마일 도장 찍고{br}폴콘 굿즈 무료로 받자!",
+  "stamp_top_button1": "참여 대상",
+  "stamp_top_button1_text": "푸드버스 회원",
+  "stamp_top_button2": "참여 기간",
+  "stamp_top_button2_text": "상시",
+
+  "stamp_notion_title": "유의사항",
+  "stamp_notion_list": "스마일 도장 찍기는 1인 1회, 하루에 한 번 참여하실 수 있습니다.$스마일 도장 찍기는 사전 예고 없이 종료 또는 변경될 수 있습니다.$스마일 도장 찍기를 7번 모두 완료 시, 폴콘 전 지점(천호, 송도, 김포, 구미 제외)에서 지급받을 수 있습니다. (1인 1회)$스마일 도장 찍기를 모두 완료 후 재참여가 불가능합니다.$스마일 도장 찍기 2차의 경우, 1차 도장 찍기에 대한 캔 글라스 교환까지 완료된 이후부터 참여 가능합니다.$비정상적인 방법으로 참여한 경우 상품 지급이 취소될 수 있습니다.",
+  "stamp_board_count_title": "도장찍기 횟수 ",
+  "stamp_board_count": "{count}회",
+  "stamp_board_none_stamp": "도장찍기 1차 완료 시{br}진행할 수 있습니다.",
+  "stamp_board_none_stamp_description": "(캔 글라스 수령 완료{br}이후부터 가능)",
+  "stamp_way_1": "하루 한 번 스마일{br}도장 찍기",
+  "stamp_way_2": "스마일 도장{br}찍기 완료",
+  "stamp_way_3": "7번 모두 찍으면{br}폴콘 굿즈 증정!",
+  "stamp_way_4": "스마일 도장{br}찍기 완료",
+
+  "roulette_title": "룰렛 돌리고 매일 하루에{br}한 번 코인을 적립하세요!",
+  "roulette_coin": "{todayCoin} COIN 당첨",
+  "roulette_today_end": "오늘 참여 완료!",
+  "roulette_show_login": "로그인 후 확인 가능합니다.",
+  "roulette_go_login": "로그인 바로가기",
+
+  "roulette_notion_list": "스마일 룰렛은 한 계정 당 하루에 한 번 참여하실 수 있습니다.$스마일 룰렛은 사전 예고 없이 종료 또는 변경될 수 있습니다.$스마일 룰렛을 통해 회득한 코인은 추후 오픈 예정인 샵, 스마트 오더를 통해 현금과 동일하게 사용하실 수 있습니다.$스마일 룰렛을 통해 획득한 코인은 5,000원 부터 10,000원 까지 사용하실 수 있습니다.$비정상적인 방법으로 참여한 경우 코인이 회수 될 수 있습니다.",
+
+  "footer_service": "이용약관",
+  "footer_privacy": "개인정보처리방침",
+  "footer_operation": "운영정책",
+  "footer_company_address_pc": "서울특별시 강남구 봉은사로 16길 37 | 사업자등록번호 177-88-00119 | 통신판매업신고 2021-서울강남-00540 | Email : help_cartverse@marvrus.com",
+  "footer_company_address_mobile": "서울특별시 강남구 봉은사로 16길 37{br}사업자등록번호 177-88-00119{br}통신판매업신고 2021-서울강남-00540{br}Email : help_cartverse@marvrus.com",
+
+  "popup_logout": "로그아웃 하시겠어요?",
+  "popup_yes": "네",
+  "popup_no": "아니요",
+  "popup_staff_auth": "직원 인증이 완료되었습니다!",
+  "popup_staff_auth_fail": "인증번호가 틀립니다.\n다시 입력해주세요.",
+
+  "popup_staff_message1": "1. 음료 픽업 시 현재 화면을 폴콘 직원에게 보여 주세요.",
+  "popup_staff_message2": "1. 스마일 도장찍기 혜택 교환 시, 현재 화면을 폴콘 직원에게 보여 주세요.",
+  "popup_staff_message3": "2. 직원이 인증번호를 입력하면 지급 완료!",
+  "popup_staff_message4": "이벤트 운영 매장: 전 지점 (천호, 송도, 김포, 구미 지점 제외)",
+  "popup_staff_message5": "직원 인증번호",
+  "popup_staff_message6": "인증 완료",
+
+  "popup_ready": "준비중입니다.",
+  "popup_confirm": "확인",
+
+  "signup-header-welcome": "환영합니다!",
+  "signup-header-des": "지금 회원가입 하신 후,{br}다양한 서비스를 이용해보세요.",
+
+  "nft-signup": "회원가입",
+  "nft-login": "로그인",
+  "nft-logout": "로그아웃",
+  "nft-not-page": "잘못된 접근 입니다.",
+  "nft-login-form-button": "로그인",
+  "nft-login-remember-id": "아이디 기억하기",
+  "nft-login-form-id-label": "아이디를 입력해주세요",
+  "nft-login-form-id-title": "아이디",
+  "nft-login-form-pwd-title": "비밀번호",
+  "nft-login-form-pwd-label": "비밀번호를 입력해주세요",
+  "nft-login-form-search-id": "아이디 찾기",
+  "nft-login-form-search-pwd": "비밀번호 찾기",
+  "nft-login-cs-text": "아이디 또는 비밀번호를 잃어버리신 경우{br}CS메일로 문의하시기 바랍니다.",
+
+  "wallet-connect-metamask": "MetaMask 연결",
+  "wallet-connect-metamask-desc": "지갑이 설치되어 있지 않으신가요?",
+  "wallet-connect-metamask-download": "MetaMask 다운로드",
+  "wallet-connect-metamask-connecting": "연결중...",
+  "wallet-connect-metamask-disconnect": "지갑 연결 해제",
+
+  "signup-not-over-fourteen": "14세 미만{br}회원가입",
+  "signup-over-fourteen": "14세 이상{br}회원가입",
+  "signup-pass-content-des1": "밈즈 가입을 위해서는 본인인증이 필요합니다.",
+  "signup-pass-content-des2": "* 만 14세 미만 고객님께서는 가입 시 보호자(법정 대리인)의 동의가 필요합니다.",
+  "signup-pass-content-des3": "보호자 명의의 휴대폰으로 인증하실 수 있습니다.{br}(한 보호자 동의로 3개의 밈즈 아이디를 만들 수 있습니다.)",
+  "signup-pass-content-des4": "만 14세 미만 어린이 회원가입을 위한 보호자 명의 휴대폰 인증 정보 수집을 동의합니다.",
+  "signup-phone-auth": "휴대폰 본인인증",
+  "signup-phone-auth-14": "휴대폰 본인인증",
+
+  "signup-header-step1": "약관동의",
+  "signup-header-step2": "정보입력",
+  "signup-header-step3": "가입완료",
+
+  "signup-agreement-all": "(주)마블러스 통합회원 약관 전체 동의",
+  "signup-agreement-overfourteen": "[필수] 만 14세 이상입니다.",
+  "signup-agreement-servicePolicy": "[필수] (주)마블러스 통합회원 이용약관",
+  "signup-agreement-privacyPolicy": "[필수] (주)마블러스 개인정보처리방침",
+  "signup-agreement-marketingPolicy": "[선택] (주)마블러스 마케팅 활용 동의",
+  "signup-agreement-nightNotiAgree": "[선택] 밈즈 앱 야간 정보 수신 동의",
+
+  "signup-userinfo-id-label": "아이디를 입력해주세요",
+  "signup-userinfo-id-title": "아이디*",
+  "signup-userinfo-pw-label": "비밀번호를 입력해주세요",
+  "signup-userinfo-pw-title": "비밀번호*",
+  "signup-userinfo-pw-confirm-label": "비밀번호를 재입력해주세요",
+  "signup-userinfo-pw-confirm-title": "비밀번호 재확인*",
+  "signup-userinfo-nickname-label": "닉네임을 입력해주세요",
+  "signup-userinfo-nickname-title": "닉네임*",
+  "signup-userinfo-birth-label": "YYYY-MM-DD",
+  "signup-userinfo-birth-title": "생년월일*",
+  "signup-userinfo-email-label": "abcd@marvrus.com",
+  "signup-userinfo-email-title": "이메일*",
+
+  "validation-id-text-role": "5~20자의 영문, 숫자, 특수기호 (-),(_)만 사용 가능합니다.",
+  "validation-id-exist-role": "이미 사용중인 아이디입니다.",
+  "validation-id-empty-role": "아이디가 비었습니다.",
+
+  "validation-pw-text-role": "영어, 숫자, 특수문자가 각 1개 이상 포함한 8~20자로 입력해주세요.",
+  "validation-pw-empty-role": "패스워드가 비었습니다.",
+  "validation-pw-not-matched-role": "새 비밀번호가 일치하지 않습니다.",
+
+  "validation-email-format-role": "이메일 형식으로 입력해 주세요.",
+  "validation-email-empty-role": "이메일을 입력해 주세요.",
+
+  "signup-complete-title": "회원가입 완료",
+  "signup-complete-des1": "님, 가입을 환영합니다!",
+  "signup-sns-complete-des1": "가입을 환영합니다!",
+  "signup-complete-des2": "지금 바로 다양한 서비스를 이용해보세요.",
+  "signup-complete-des3": "가입일시: ",
+  "signup-complete-home": "로그인페이지로 이동",
+
+  "signup-next-step": "다음 단계로",
+
+  "sns_login_facebook": "Facebook으로 로그인",
+
+  "show_network_message": "네트워크 연결을 확인해주세요!",
+  "show_login_message": "로그인 후 참여 가능합니다.",
+
+  "title_my_info": "내 정보",
+
+  "title-id": "아이디",
+  "title-oldpw-title": "비밀번호",
+  "title-name": "이름",
+  "title-email": "이메일",
+  "title-nickname": "닉네임",
+  "title-phoneNo": "휴대폰",
+  "title-birthDay": "생년월일",
+  "btn-edit": "수정",
+
+  "link_facebook": "페이스북 연동",
+  "link_kakao": "카카오 연동",
+  "link_naver": "네이버 연동",
+
+  "login_facebook": "페이스북 로그인",
+  "login_kakao": "카카오 로그인",
+  "login_naver": "네이버 로그인",
+
+  "alert-msg-oldpw-not-matched": "비밀번호가 일치하지 않습니다.",
+
+  "my-info-edit": "나의 정보 수정",
+  "re-check-password-title": "비밀번호 재확인",
+  "re-check-password-description": "개인정보를 안전하게 보호하기 위해 비밀번호을 다시 한 번 입력해 주세요.",
+
+  "validation-oldpw-empty": "현재 비밀번호를 입력해주세요.",
+  "validation-newpw-empty": "새 비밀번호를 입력해주세요.",
+  "validation-newpw-confirm-empty": "새 비밀번호를 다시 입력해주세요.",
+  "btn_ok": "확인",
+
+  "validation_id_empty": "아이디를 입력해주세요.",
+  "validation_email_empty": "이메일을 입력해주세요.",
+  "validation_nickname_empty": "닉네임을 입력해주세요.",
+
+  "alert_msg_possible_email": "사용가능한 이메일입니다.",
+  "alert_msg_already_email": "이미 사용중인 이메일입니다.",
+  "alert_msg_possible_nickname": "사용가능한 닉네임입니다.",
+  "alert_msg_already_nickname": "이미 사용중인 닉네임입니다.",
+  "alert_msg_under_14yearsold": "만 14세 미만인 회원은 회원정보를 수정할 수 없습니다.",
+  "alert_msg_check_dupl_email": "이메일 중복 체크를 해주세요.",
+  "alert_msg_check_dupl_nickname": "닉네임 중복 체크를 해주세요.",
+  "alert_msg_not_done_passAuth": "본인인증이 정상적으로 완료되지 않았습니다.\n다시 확인해 주세요.",
+  "alert_msg_success_edit_userInfo": "회원 정보가 수정되었습니다.",
+  "alert_msg_already_exits_passAuth": "이미 본인인증 된 아이디가 있습니다.",
+  "alert_msg_failed_edit_userInfo": "회원 정보가 수정되지 못했습니다.\n다시 시도해 주세요.",
+  "alert_msg_failed_passAuth": "본인인증에 실패했습니다.",
+  "alert_msg_notice_add_userInfo": "푸드버스 서비스를 이용하시려면\n추가회원정보를 입력해주세요.",
+
+  "validation_nickname_length": "닉네임은 최소 2자 ~ 최대 8자로 작성해주세요.",
+  "validation_nickname_use_role": "닉네임은 한글,영어,숫자만 사용해주세요.",
+  "validation_phoneNo_only_num": "휴대폰 번호는 숫자만 입력해주세요.",
+  "validation_phoneNo_length": "휴대폰 번호를 올바르게 입력해주세요.",
+
+  "btn_check_dupl": "중복확인",
+  "btn_phone_passAuth": "휴대폰인증",
+
+  "marketing_receive_argreement_title": "마케팅 수신 동의",
+  "checkbox_marketing_receive_greement": "[선택] (주) 마블러스 마케팅 정보 수신",
+  "checkbox_nightmarketing_receive_greement": "[선택] 야간 정보 수신",
+
+  "btn_edit_my_info": "나의 정보 수정",
+  "btn_change_pw": "비밀번호 변경",
+
+  "alert_msg_failed_sns_login": "인증에 실패했습니다.",
+  "sns_id_pass_title": "SNS 아이디 인증",
+  "sns_id_pass_description": "개인정보를 안전하게 보호하기 위해{br}SNS 인증을 해주세요",
+
+  "alert_msg_success_change_pw": "비밀번호가 변경되었습니다.",
+  "error_not_correct_curr_pw": "현재 비밀번호가 일치하지 않습니다.",
+  "error_same_current_pw": "현재 비밀번호와 동일합니다.",
+  "alert_msg_failed_change_pw": "비밀번호를 변경하지 못했습니다.\n다시 시도해 주세요.",
+
+  "validation_pw_length": "비밀번호는 최소 8자리 이상 최대 20자 이하로 입력해주세요.",
+  "validation_pw_match_role": "영문, 숫자, 특수문자를 각 1개 이상 포함하며 8~20자 이하로 입력해주세요.",
+
+  "label_old_password": "현재 비밀번호",
+  "label_new_password": "새 비밀번호",
+  "label_new_password_confirm": "새 비밀번호 확인",
+
+  "btn_submit_edit_password": "변경완료",
+
+  "alert_msg_wrong_access": "잘못된 접근입니다.",
+
+  "brand_introduce_title1": "대한민국 단일 브랜드",
+  "brand_introduce_title2": "최다 베이커리 카페",
+
+  "brand_introduce_description_pc": "폴콘은 유기농 밀, 동물성 생크림, 천연버터를 사용하며 쇼트닝 보존제, 식품 첨가제 등 빵의 본질을 해치는 재료를 사용하지 않습니다.{br}커피도 GBM의 원두를 바탕으로 폴콘만의 블랜딩 원두를 개발하였으며{br}자연친화적 인테리어를 구성하여 고객분들께 최고의 빵, 최고의 드링크, 최상의 공간을 제공하고자 합니다.",
+  "brand_introduce_description_mobile": "폴콘은 유기농 밀, 동물성 생크림, 천연버터를 사용하며 쇼트닝 보존제, 식품 첨가제 등 빵의 본질을 해치는 재료를 사용하지 않습니다. 커피도 GBM의 원두를 바탕으로 폴콘만의 블랜딩 원두를 개발하였으며 자연친화적 인테리어를 구성하여 고객분들께 최고의 빵, 최고의 드링크, 최상의 공간을 제공하고자 합니다.",
+
+  "brand_introduce_content_1_1": "베이커리, 디저트 전 품목",
+  "brand_introduce_content_1_2": "당일 생산, 당일 판매",
+
+  "brand_introduce_content_2_1": "하이 퀄리티",
+  "brand_introduce_content_2_2": "드링크",
+
+  "brand_introduce_content_3_1": "아이들에게도 안전한",
+  "brand_introduce_content_3_2": "천연재료 사용",
+
+  "brand_introduce_content_4_1": "자연친화적 감성",
+  "brand_introduce_content_4_2": "인테리어",
+
+  "brand_store_title1": "폴콘매장",
+  "brand_store_title2": "둘러보기",
+
+  "brand_store_decription": "자유와 여유를 즐길 수 있는 편안한 환경을 제공합니다.{br}지금 온라인으로 폴콘 매장을 체험해보세요.",
+
+  "store_pocheon_title": "폴콘 포천점",
+  "store_pocheon_location": "경기도 포천시 가산면 부흥로 692",
+  "store_pocheon_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_paju_title": "폴콘 파주 본점",
+  "store_paju_location": "경기도 파주시 월롱면 다락고개길 98-10",
+  "store_paju_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_yangju_title": "폴콘 양주점",
+  "store_yangju_location": "경기도 양주시 백석읍 꿈나무로 171",
+  "store_yangju_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_gumi_title": "폴콘 구미점",
+  "store_gumi_location": "경상북도 구미시 선산대로 11 주1동",
+  "store_gumi_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_paldang_river_garden_title": "폴콘 리버가든 팔당",
+  "store_paldang_river_garden_location": "경기도 남양주시 와부읍 경강로926번길 66",
+  "store_paldang_river_garden_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_pohang_title": "폴콘 포항",
+  "store_pohang_location": "경북 포항시 북구장량로 182",
+  "store_pohang_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_kyungju_title": "폴콘 경주",
+  "store_kyungju_location": "경상북도 경주시 탑동 46-1",
+  "store_kyungju_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_eunpyeong_title": "폴콘 롯데백화점 은평점",
+  "store_eunpyeong_location": "서울특별시 은평구 통일로 1050지하 1층",
+  "store_eunpyeong_openTime": "오전 10시 ~ 오후 10시",
+
+  "store_gwangyo_title": "폴콘 갤러리아 광교점",
+  "store_gwangyo_location": "경기도 수원시 영통구 광교호수공원로 320 갤러리아백화점 광교점 9층",
+  "store_gwangyo_openTime": "오전 10시 30분 ~ 오후 8시 (평일) / 오후 8시 30분 (주말)",
+
+  "store_nowon_title": "폴콘 롯데백화점 노원점",
+  "store_nowon_location": "서울특별시 노원구 동일로 1414 롯데백화점 노원점 4층",
+  "store_nowon_openTime": "오전 10시 30분 ~ 오후 8시 (평일) / 오후 8시 30분 (주말)",
+
+  "store_pocheon_oris_title": "폴콘 오리스 포천본점",
+  "store_pocheon_oris_location": "경기도 포천시 가산면 부흥로 692",
+  "store_pocheon_oris_openTime": "오전 10시 ~ 오후 10시 (L.O. 오후 9시)",
+
+  "store_ulsan_oris_title": "폴콘 오리스 울산",
+  "store_ulsan_oris_location": "울산 울주군 범서읍 장검길 74-3",
+  "store_ulsan_oris_openTime": "오전 10시 ~ 오후 10시 (L.O. 오후 9시)",
+
+  "store_kyungju_oris_title": "폴콘 오리스 경주",
+  "store_kyungju_oris_location": "경상북도 경주시 탑동 46-1",
+  "store_kyungju_oris_openTime": "오전 11시 ~ 오후 9시 (L.O. 오후 9시, Tue off)",
+
+  "importing_video": "영상 가져오는중...",
+
+  "error_page_404_title": "페이지를 찾을 수 없습니다.",
+  "error_page_404_description": "방문하신 페이지가 더 이상 존재하지 않습니다.{br}이전페이지로 이동 후, 계속 이용해 주세요.",
+
+  "error_page_500_title": "서비스에 접속할 수 없습니다.",
+  "error_page_500_description": "죄송합니다. 기술적인 문제로 접속되지 않았습니다.{br}잠시 후 다시 이용 부탁 드립니다.",
+
+  "btn_go_back": "이전 페이지로 이동하기",
+
+  "find_id_title": "아이디 찾기",
+  "find_id_description": "가입 시 입력한 이메일을 입력해주세요.",
+
+  "alert_not_exists_email1": "없는 이메일 정보입니다.",
+  "alert_not_exists_email2": "다시 확인해주세요.",
+
+  "authNum_title": "인증번호",
+  "authNum_send_success_msg": "인증번호를 보냈습니다.",
+  "authNum_valid_duration": "남은시간",
+  "authNum_correct_msg": "인증이 완료되었습니다.",
+  "authNum_expired_msg1": "유효시간이 만료되었습니다.",
+  "authNum_expired_msg2": "인증번호를 재발송해주세요.",
+
+  "alert_msg_not_exists_email": "없는 이메일 정보입니다.\n다시 확인해주세요.",
+  "alert_msg_exceeded_times": "재발송 가능 횟수를 초과하였습니다.\n24시간 후에 다시 시도해주세요.",
+  "alert_msg_invalid_authNum": "유효하지 않은 인증번호입니다.",
+  "alert_msg_timeout": "유효시간이 만료되었습니다.\n인증번호를 재발송해주세요.",
+
+  "find_id_complete_description": "회원님의 아이디를 찾았어요!",
+  "find_id_go_login_btn": "로그인 하기",
+  "find_id_go_pass_btn": "비밀번호 찾기",
+
+  "popup_not_exists_email_id1": "일치하는 회원정보가 없습니다.",
+  "popup_not_exists_email_id2": "다시 확인해주세요.",
+
+  "find_pw_title": "비밀번호 찾기",
+  "find_pw_description1": "비밀번호를 잊으셨나요?",
+  "find_pw_description2": "가입한 아이디와 가입 시 입력한 이메일을 입력해주세요.",
+
+  "validation_empty_email": "이메일이 비었습니다.",
+
+  "placeholder_id_in_find_pw": "아이디를 입력해주세요",
+  "placeholder_email_in_find_pw": "이메일을 입력해주세요",
+
+  "find_pw_go_findid_btn": "아이디 찾기",
+
+  "alert_msg_send_email_auth": "이메일로 인증번호를 발송했습니다.\n이메일 인증을 진행해주세요.",
+
+  "find_pw_description": "비밀번호를 재설정 하시려면{br}이메일 인증을 진행해주세요.",
+  "btn_find_pw_next": "다음단계",
+
+  "alert_msg_not_correct_email": "이메일이 올바르지 않습니다.",
+  "alert_msg_same_prev_email": "이전 비밀번호와 동일합니다.\n새 비밀번호를 다시 설정해주세요.",
+
+  "renew_pw_title": "비밀번호 재설정",
+  "renew_pw_description": "새로운 비밀번호를 만들어주세요.",
+
+  "renew_pw_empty_password": "비밀번호가 비었습니다.",
+  "renew_pw_empty_password_confirm": "비밀번호를 재입력해주세요.",
+
+  "btn_renew_pw": "비밀번호 수정",
+
+  "alert_success_renew_pw_desc1": "비밀번호 변경이 완료되었습니다.",
+  "alert_success_renew_pw_desc2": "변경된 비밀번호로 다시 로그인해주세요!",
+  "btn_go_login": "로그인하기",
+
+  "btn_send_auth": "인증",
+  "btn_resend_auth": "재발송",
+
+  "edit_pw_label_password": "비밀번호를 입력해주세요",
+  "edit_pw_title_password": "새 비밀번호",
+  "edit_pw_label_password_confirm": "비밀번호를 재입력해주세요",
+  "edit_pw_title_password_confirm": "새 비밀번호 재확인",
+
+  "alert_msg_error_dupl_email": "다른 계정에서 이메일을 사용 중입니다.\n인증이 어려우신 경우,\n고객센터로 문의 바랍니다."
+}

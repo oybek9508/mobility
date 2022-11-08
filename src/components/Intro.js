@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Box } from "@mui/material";
+import ReactPlayer from "react-player";
 
 const Intro = (props) => {
   const { onOff } = props;
@@ -37,9 +38,10 @@ const Intro = (props) => {
         muted
         autoPlay
         playsInline
+        preload="auto"
         onLoadedData={handleVideoLoaded}
       >
-        <source src="/assets/cartverse.mp4" type="video/mp4" />
+        <source src="assets/videos/cartverse.mp4" type="video/mp4" />
       </video>
     </Box>
   );

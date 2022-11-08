@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import Language from "./Language";
-import Exit from "../assets/section1/header/exit.png";
 import { CardMedia, Typography } from "@mui/material";
 
 const navArr = ["EVENT", "CUSTOMIZE", "ROADMAP"];
@@ -13,6 +12,7 @@ export default function MenuDrawer({
   openMenu,
   handleLang,
   lang,
+  isMobileScreen,
 }) {
   const list = () => (
     <Box>
@@ -23,18 +23,19 @@ export default function MenuDrawer({
           justifyContent: "space-between",
         }}
       >
-        {/* <Language handleLang={handleLang} lang={lang} /> */}
+        <Language handleLang={handleLang} lang={lang} isMobileScreen />
         <CardMedia
           component="img"
           sx={{ width: "24px", height: "24px" }}
-          src={Exit}
-          alt={Exit}
+          src="assets/images/cartverse/header/exit.png"
+          alt="Exit"
           onClick={toggleDrawer}
         />
       </Box>
       <List sx={{ mt: "40px" }}>
         {navArr.map((nav, idx) => (
           <a
+            key={idx}
             href={
               idx === 0
                 ? "#section2"

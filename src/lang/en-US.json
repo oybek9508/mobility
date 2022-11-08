@@ -1,1 +1,387 @@
-{}
+{
+  "fandb_title": "FOODVERSE x VOLLKORN LAND",
+  "fandb_description": "Join Vollkorn as we step into the metaverse.",
+
+  "event_title1": "Sign up now",
+  "event_title2": "to get a free drink",
+
+  "playlern_content1": "Experience our fun & exciting ",
+  "playlern_content2": "Foodverse right now!",
+  "playlern_content3": "Play games to earn rewards every day.",
+
+  "fncoin_comingsoon": "Coming Soon",
+  "fncoin_description": "Foodverse Coin is the main currency in the F&B metaverse world.{br}Earn them daily and spend them on amazing benefits!",
+
+  "foodverse_description_pc": "Be part of a unique food and beverage experience led by the best new brands. Come join us in Foodverse, the first metaverse platform for F&B brands!",
+  "foodverse_description_mobile": "Be part of a unique food and beverage experience led by the best new brands. Come join us in Foodverse, the first metaverse platform for F&B brands!",
+
+  "top_menu_login": "Login/Sign Up",
+  "top_menu_logout": "Log Out",
+  "top_menu_mypage": "My Page",
+
+  "top_menu_mobile_login": "Log In",
+
+  "benefit_section_footer1": "* 1 random plate giveaway out of 4 kinds of 6 inch size",
+
+  "stamp_top_title": "100% guaranteed! Collect SMILE stamps every day{br}and earn free Vollkorn merch!",
+  "stamp_top_button1": "Eligibility",
+  "stamp_top_button1_text": "FOODVERSE members",
+  "stamp_top_button2": "Duration",
+  "stamp_top_button2_text": "Always",
+
+  "stamp_notion_title": "Please note",
+  "stamp_notion_list": "Smile Stamping is limited to one per person per day.$Smile Stamping may be shut down or changed without prior notice.$When you complete all seven smile stamps, you can receive merch at any Vollkorn branch. (except Cheonho, Songdo, Gimpo, and Gumi branches)$Re-entry in the same Smile stamping is not possible after completing.$You cannot participate in the 2nd round Smile stamping until you receive a glass merch for the 1st round Smile stamping.$If you participate in an unusual way, the merch may be canceled.",
+  "stamp_board_count_title": "Number of stamps ",
+  "stamp_board_count": "{count} Collected",
+  "stamp_board_none_stamp": "1st round Smile Stamping completion is needed.",
+  "stamp_board_none_stamp_description": "(Available after receiving the can shaped glass)",
+  "stamp_way_1": "Collect Smile Stamp once a day",
+  "stamp_way_2": "Smile Stamping completed",
+  "stamp_way_3": "Collect all 7 stamps,{br}and receive Vollkorn merch!",
+  "stamp_way_4": "Smile Stamp completed",
+
+  "roulette_title": "Spin the wheel and{br}win coins once every day!",
+  "roulette_coin": "{todayCoin} COIN earned",
+  "roulette_today_end": "Participated today!",
+  "roulette_show_login": "Log in below to access.",
+  "roulette_go_login": "Log in Shortcut",
+
+  "roulette_notion_list": "Smile Roulette is limited to one per account per day.$Smile Roulette may be shut down or changed without prior notice.$Coins acquired through Smile Roulette can be used similarly to cash through Online Shop and Smart Order, which will be opened later.$Coins acquired through Smile Roulette can be used from 5,000 to 10,000 won.$If you participate in an unusual way, the coins may be canceled.",
+
+  "footer_service": "Terms of Service",
+  "footer_privacy": "Privacy Policy",
+  "footer_operation": "Rules of Conduct",
+  "footer_company_address_pc": "37 Bongeunsa-ro 16-gil, Gangnam-gu, Seoul, Republic of Korea | Business Registration No.177-88-00119 | E-commerce Permit 2021-Seoul Gangnam-00540 | Email : help_cartverse@marvrus.com",
+  "footer_company_address_mobile": "37 Bongeunsa-ro 16-gil, Gangnam-gu, Seoul, Republic of Korea{br}Business Registration No.177-88-00119{br}E-commerce Permit 2021-Seoul Gangnam-00540{br}Email : help_cartverse@marvrus.com",
+
+  "popup_logout": "​Are you sure you want to log out?",
+  "popup_yes": "Confirm",
+  "popup_no": "Cancel",
+  "popup_staff_auth": "Staff verification is complete!",
+  "popup_staff_auth_fail": "The verification code is incorrect.\nPlease re-enter.",
+
+  "popup_staff_message1": "1.  When picking up a drink, show the current screen to the Vollkorn staff.",
+  "popup_staff_message2": "1. When exchanging the Smile Stamping benefit, show the current screen to the Vollkorn staff.",
+  "popup_staff_message3": "2. When the staff enters the verification code, it is done!",
+  "popup_staff_message4": "Event operating stores: All branches (except Cheonho, Songdo, Gimpo, and Gumi branches)",
+  "popup_staff_message5": "Staff verification code",
+  "popup_staff_message6": "Verification completed",
+
+  "popup_ready": "Coming soon",
+  "popup_confirm": "​Confirm",
+
+  "signup-header-welcome": "Welcome!",
+  "signup-header-des": "​​Sign up now and try various services.",
+
+  "nft-signup": "Create Account",
+  "nft-login": "Sign In",
+  "nft-logout": "Logout",
+  "nft-not-page": "Wrong approach.",
+  "nft-login-form-button": "Sign In",
+  "nft-login-remember-id": "Remember ID",
+  "nft-login-form-id-label": "Please enter your ID",
+  "nft-login-form-id-title": "ID",
+  "nft-login-form-pwd-title": "Password",
+  "nft-login-form-pwd-label": "Please enter your Password",
+  "nft-login-form-search-id": "Find ID",
+  "nft-login-form-search-pwd": "Find Password",
+  "nft-login-cs-text": "Please contact us via CS Email if you have lost your ID or password.",
+
+  "wallet-connect-metamask": "​Connect MetaMask",
+  "wallet-connect-metamask-desc": "Don't have a wallet installed?",
+  "wallet-connect-metamask-download": "Download MetaMask",
+  "wallet-connect-metamask-connecting": "​Connecting…",
+  "wallet-connect-metamask-disconnect": "Un-link your wallet",
+
+  "signup-not-over-fourteen": "Sign up for under 14 years old",
+  "signup-over-fourteen": "Sign up for 14 years old and older",
+  "signup-pass-content-des1": "To sign up for MEEMZ, you need to verify your identity.",
+  "signup-pass-content-des2": "* For customers under the age of 14, consent of a parent(legal guardian) is required when registering.",
+  "signup-pass-content-des3": "You can verify with the guardian's mobile phone. (You can create up to 3 MEEMZ accounts with one parental consent.)",
+  "signup-pass-content-des4": "You agree to the collection of mobile phone verification information under the guardian's name for membership registration for children under the age of 14.",
+  "signup-phone-auth": "Mobile phone identity verification",
+  "signup-phone-auth-14": "Mobile phone identity verification",
+
+  "signup-header-step1": "Agree to terms{br}and conditions",
+  "signup-header-step2": "Enter{br}information",
+  "signup-header-step3": "Registration{br}complete",
+
+  "signup-agreement-all": "Agree to all integrated member terms and conditions of MARVRUS Co., Ltd.",
+  "signup-agreement-overfourteen": "[Required] You are 14 years old or older.",
+  "signup-agreement-servicePolicy": "[Required] MARVRUS Co., Ltd. Integrated Member Terms and Conditions",
+  "signup-agreement-privacyPolicy": "[Required] MARVRUS Co., Ltd. Privacy Policy",
+  "signup-agreement-marketingPolicy": "[Optional] MARVRUS Co., Ltd. Agree to the PR/marketing promotion",
+  "signup-agreement-nightNotiAgree": "​[Optional] Consent to receive nighttime advertisement for the MEEMZ app",
+
+  "signup-userinfo-id-label": "Please enter your ID",
+  "signup-userinfo-id-title": "ID*",
+  "signup-userinfo-pw-label": "Please enter your password",
+  "signup-userinfo-pw-title": "Password*",
+  "signup-userinfo-pw-confirm-label": "Please re-enter your password",
+  "signup-userinfo-pw-confirm-title": "Reconfirm your password*",
+  "signup-userinfo-nickname-label": "Please enter your nickname",
+  "signup-userinfo-nickname-title": "Nickname*",
+  "signup-userinfo-birth-label": "YYYY-MM-DD",
+  "signup-userinfo-birth-title": "Date of Birth*",
+  "signup-userinfo-email-label": "abcd@marvrus.com",
+  "signup-userinfo-email-title": "Email*",
+
+  "validation-id-text-role": "5~20 letters, numbers, and special symbols (only (-) and (_)) can be used.",
+  "validation-id-exist-role": "This ID is already taken.",
+  "validation-id-empty-role": "ID is missing.",
+
+  "validation-pw-text-role": "8 to 20 characters including English, numbers, and at least one special character.",
+  "validation-pw-empty-role": "Password is missing.",
+  "validation-pw-not-matched-role": "The new password does not match.",
+
+  "validation-email-format-role": "Please enter in email format.",
+  "validation-email-empty-role": "Please enter your email.",
+
+  "signup-complete-title": "Sign Up Completed",
+  "signup-complete-des1": ", welcome to join!",
+  "signup-sns-complete-des1": "Welcome to join!",
+  "signup-complete-des2": "Try a variety of services right now.",
+  "signup-complete-des3": "Registration date: ",
+  "signup-complete-home": "Go to login page",
+
+  "signup-next-step": "Next step",
+
+  "sns_login_facebook": "Login with FACEBOOK",
+
+  "show_network_message": "Please check your network connection!",
+  "show_login_message": "Login required to access.",
+
+  "title_my_info": "My profile",
+
+  "title-id": "ID",
+  "title-oldpw-title": "Password",
+  "title-name": "Name",
+  "title-email": "Email",
+  "title-nickname": "Nickname",
+  "title-phoneNo": "Phone number",
+  "title-birthDay": "Date of birth",
+  "btn-edit": "Edit",
+
+  "link_facebook": "Connect with FACEBOOK",
+  "link_kakao": "Connect with KAKAO",
+  "link_naver": "Connect with NAVER",
+
+  "login_facebook": "Login with FACEBOOK",
+  "login_kakao": "Login with KAKAO",
+  "login_naver": "Login with NAVER",
+
+  "alert-msg-oldpw-not-matched": "Password does not match.",
+
+  "my-info-edit": "Edit my info",
+  "re-check-password-title": "Reconfirm your passward",
+  "re-check-password-description": "To keep your personal information safe, please re-enter your password.",
+
+  "validation-oldpw-empty": "Please enter your current password.",
+  "validation-newpw-empty": "Please enter the new password.",
+  "validation-newpw-confirm-empty": "Please re-enter the new password.",
+  "btn_ok": "Confirm",
+
+  "validation_id_empty": "Please enter your ID.",
+  "validation_email_empty": "Please enter your email.",
+  "validation_nickname_empty": "Please enter your nickname.",
+
+  "alert_msg_possible_email": "Available email.",
+  "alert_msg_already_email": "This email is already taken.",
+  "alert_msg_possible_nickname": "Available nickname.",
+  "alert_msg_already_nickname": "This nickname is already taken.",
+  "alert_msg_under_14yearsold": "Members under the age of 14 cannot edit your personal information.",
+  "alert_msg_check_dupl_email": "Please check your email for duplicates.",
+  "alert_msg_check_dupl_nickname": "Please check your nickname for duplicates.",
+  "alert_msg_not_done_passAuth": "Identity verification was unsuccessful.\nPlease try again.",
+  "alert_msg_success_edit_userInfo": "Personal information has been edited.",
+  "alert_msg_already_exits_passAuth": "You already have a verified ID.",
+  "alert_msg_failed_edit_userInfo": "Unsuccessful to edit your personal information.\nPlease try again.",
+  "alert_msg_failed_passAuth": "Identity verification failed.",
+  "alert_msg_notice_add_userInfo": "To use the FOODVERSE service,\nplease enter additional personal information.",
+
+  "validation_nickname_length": "Nickname has to be a minimum of 2 characters and a maximum of 8 characters.",
+  "validation_nickname_use_role": "Please use only Korean, English, and numbers for your nickname.",
+  "validation_phoneNo_only_num": "Please enter only numbers for your phone number.",
+  "validation_phoneNo_length": "Please enter your phone number correctly.",
+
+  "btn_check_dupl": "Check for{br}duplicates",
+  "btn_phone_passAuth": "Mobile phone{br}verification",
+
+  "marketing_receive_argreement_title": "Agree to the PR/marketing promotion",
+  "checkbox_marketing_receive_greement": "[Optional] Receive marketing information from Marvelous Co., Ltd.",
+  "checkbox_nightmarketing_receive_greement": "[Optional] Consent to receive nighttime advertisement",
+
+  "btn_edit_my_info": "Edit my personal information",
+  "btn_change_pw": "Reset password",
+
+  "alert_msg_failed_sns_login": "Verification failed.",
+  "sns_id_pass_title": "SNS ID verification",
+  "sns_id_pass_description": "Please verify your SNS to keep personal information safe",
+
+  "alert_msg_success_change_pw": "Your password has been changed.",
+  "error_not_correct_curr_pw": "The current password does not match.",
+  "error_same_current_pw": "Same as the current password.",
+  "alert_msg_failed_change_pw": "Failed to change the password.\nPlease try again.",
+
+  "validation_pw_length": "Please enter a password with a minimum of 8 characters and a maximum of 20 characters.",
+  "validation_pw_match_role": "8 to 20 characters including English, numbers, and at least one special character.",
+
+  "label_old_password": "Current password",
+  "label_new_password": "New password",
+  "label_new_password_confirm": "Confirm your new password",
+
+  "btn_submit_edit_password": "Reset complete",
+
+  "alert_msg_wrong_access": "Wrong approach",
+
+  "brand_introduce_title1": "Cafe brand",
+  "brand_introduce_title2": "with the most bakeries in Korea",
+
+  "brand_introduce_description_pc": "Vollkorn uses organic wheat, fresh cream, and natural butter and does not use ingredients that harm the essence of bread, such as shortening preservatives and food additives.{br}Based on GBM’s beans, Vollkorn’s own coffee blend is developed.{br}We aim to provide our customers with the best bread, drinks, and space by constructing an eco-friendly interior.",
+  "brand_introduce_description_mobile": "Vollkorn uses organic wheat, fresh cream, and natural butter and does not use ingredients that harm the essence of bread, such as shortening preservatives and food additives. Based on GBM’s beans, Vollkorn’s own coffee blend is developed. We aim to provide our customers with the best bread, drinks, and space by constructing an eco-friendly interior.",
+
+  "brand_introduce_content_1_1": "All bakery and dessert items",
+  "brand_introduce_content_1_2": "produced and sold on the same day",
+
+  "brand_introduce_content_2_1": "High quality",
+  "brand_introduce_content_2_2": "drinks",
+
+  "brand_introduce_content_3_1": "We use natural ingredients",
+  "brand_introduce_content_3_2": "children can safely eat",
+
+  "brand_introduce_content_4_1": "Nature-friendly",
+  "brand_introduce_content_4_2": "interior",
+
+  "brand_store_title1": "Tour of",
+  "brand_store_title2": "Vollkorn Store",
+
+  "brand_store_decription": "We provide a comfortable environment where you can enjoy freedom and relaxation.{br}Try the Vollkorn store online now.",
+
+  "store_pocheon_title": "Vollkorn Pocheon",
+  "store_pocheon_location": "692, Buheung-ro, Gasan-myeon, Pocheon-si, Gyeonggi-do",
+  "store_pocheon_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_paju_title": "Vollkorn Paju Main",
+  "store_paju_location": "98-10, Darak-Gogae-gil, Wolong-myeon, Paju-si, Gyeonggi-do",
+  "store_paju_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_yangju_title": "Vollkorn Yangju",
+  "store_yangju_location": "171, Kumnamnamu-ro, Baekseok-eup, Yangju-si, Gyeonggi-do",
+  "store_yangju_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_gumi_title": "Vollkorn Gumi",
+  "store_gumi_location": "11 Joo 1-dong, Seonsan-daero, Gumi-si, Gyeongsangbuk-do",
+  "store_gumi_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_paldang_river_garden_title": "Vollkorn River Garden Paldang",
+  "store_paldang_river_garden_location": "66, Gyeonggang-ro 926beon-gil, Wabu-eup, Namyangju-si, Gyeonggi-do",
+  "store_paldang_river_garden_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_pohang_title": "Vollkorn Pohang",
+  "store_pohang_location": "182, Bukgujangryang-ro, Pohang-si, Gyeongsangbuk-do",
+  "store_pohang_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_kyungju_title": "Vollkorn Gyeongju",
+  "store_kyungju_location": "46-1 Tap-dong, Gyeongju-si, Gyeongsangbuk-do",
+  "store_kyungju_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_eunpyeong_title": "Vollkorn Lotte Mall Eunpyeong",
+  "store_eunpyeong_location": "1st basement floor, 1050 Tongil-ro, Eunpyeong-gu, Seoul",
+  "store_eunpyeong_openTime": "OPEN : 10:00 – Closed : 22:00",
+
+  "store_gwangyo_title": "Vollkorn Galleria Gwanggyo",
+  "store_gwangyo_location": "9th floor, Galleria Department Store Gwanggyo, 320, Gwanggyohosugongwon-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do",
+  "store_gwangyo_openTime": "OPEN : 10:30 – Closed : 20:00 (Weekdays) / 20:30 (Weekends)",
+
+  "store_nowon_title": "Vollkorn Lotte Department Store Nowon",
+  "store_nowon_location": "Lotte Department Store Nowon, 4th floor, 1414, Dongil-ro, Nowon-gu, Seoul",
+  "store_nowon_openTime": "OPEN : 10:30 – Closed : 20:00 (Weekdays) / 20:30 (Weekends)",
+
+  "store_pocheon_oris_title": "Vollkorn Orris Pocheon Main",
+  "store_pocheon_oris_location": "692, Buheung-ro, Gasan-myeon, Pocheon-si, Gyeonggi-do",
+  "store_pocheon_oris_openTime": "OPEN : 10:00 – Closed : 22:00 (L.O. 21:00)",
+
+  "store_ulsan_oris_title": "Vollkorn Orris Ulsan",
+  "store_ulsan_oris_location": "74-3, Janggeom-gil, Beomseo-eup, Ulju-gun, Ulsan",
+  "store_ulsan_oris_openTime": "OPEN : 10:00 – Closed : 22:00 (L.O. 21:00)",
+
+  "store_kyungju_oris_title": "Vollkorn Orris Gyeongju",
+  "store_kyungju_oris_location": "46-1 Tap-dong, Gyeongju-si, Gyeongsangbuk-do",
+  "store_kyungju_oris_openTime": "OPEN : 11:00 – Closed : 21:00 (L.O. 21:00, Tue off)",
+
+  "importing_video": "Loading...",
+
+  "error_page_404_title": "Sorry this page isn't available.",
+  "error_page_404_description": "Page does not exist.{br}Please go back and try again.",
+
+  "error_page_500_title": "Sorry we've encountered an error.",
+  "error_page_500_description": "The server encountered an error and could not process your request.{br}Please try again later.",
+
+  "btn_go_back": "Back to previous page",
+
+  "find_id_title": "Find my ID",
+  "find_id_description": "Please enter the email you used when signing up.",
+
+  "alert_not_exists_email1": "Please enter a valid email address.",
+  "alert_not_exists_email2": "Please double-check and try again.",
+
+  "authNum_title": "Verification code",
+  "authNum_send_success_msg": "Verification code has been sent.",
+  "authNum_valid_duration": "Remaining time",
+  "authNum_correct_msg": "Verification is complete.",
+  "authNum_expired_msg1": "Valid time has expired.",
+  "authNum_expired_msg2": "Send new code.",
+
+  "alert_msg_not_exists_email": "Invalid email address.\nPlease try again.",
+  "alert_msg_exceeded_times": "Too many failed attempts.\nTry again in 24 hours.",
+  "alert_msg_invalid_authNum": "Invalid verification code.",
+  "alert_msg_timeout": "The valid time has expired.\nPlease resend the verification code.",
+
+  "find_id_complete_description": "You’re all set!",
+  "find_id_go_login_btn": "Log In",
+  "find_id_go_pass_btn": "Find my password",
+
+  "popup_not_exists_email_id1": "There is no matching information in our database.",
+  "popup_not_exists_email_id2": "Please check again.",
+
+  "find_pw_title": "Find my password",
+  "find_pw_description1": "Forgot your password?",
+  "find_pw_description2": "Please enter the ID you registered with and the email you entered when you signed up.",
+
+  "validation_empty_email": "Email is missing.",
+
+  "placeholder_id_in_find_pw": "Please enter your ID",
+  "placeholder_email_in_find_pw": "Please enter your email",
+
+  "find_pw_go_findid_btn": "Find my ID",
+
+  "alert_msg_send_email_auth": "A verification code has been sent to you by email.\nPlease proceed with email verification.",
+
+  "find_pw_description": "To reset your password,{br}please verify your email.",
+  "btn_find_pw_next": "Next step",
+
+  "alert_msg_not_correct_email": "Email is invalid.",
+  "alert_msg_same_prev_email": "The new password you entered is the same as your old password.\nEnter a different password",
+
+  "renew_pw_title": "Reset password",
+  "renew_pw_description": "Create a new password.",
+
+  "renew_pw_empty_password": "Password is missing.",
+  "renew_pw_empty_password_confirm": "Please re-enter your password.",
+
+  "btn_renew_pw": "Edit password",
+
+  "alert_success_renew_pw_desc1": "A New password has been set.",
+  "alert_success_renew_pw_desc2": "Please log in again with the new password!",
+  "btn_go_login": "Log In",
+
+  "btn_send_auth": "Verify",
+  "btn_resend_auth": "Resend",
+
+  "edit_pw_label_password": "Please enter the new password",
+  "edit_pw_title_password": "New password",
+  "edit_pw_label_password_confirm": "Please re-enter the new password",
+  "edit_pw_title_password_confirm": "Confirm your new password",
+
+  "alert_msg_error_dupl_email": "Your email is used by another account.\nIf you have problems, please contact our customer service team."
+}

@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "Cal Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("/assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Aristotelica-DemiBold";
+  src: url("/assets/fonts/aristotelica/Aristotelica-Display-DemiBold-Trial.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Aristotelica-ExtraLight";
+  src: url("/assets/fonts/aristotelica/Aristotelica-Display-ExtraLight-Trial.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "AristotelicaSmallCaps-Regular";
+  src: url("/assets/fonts/aristotelica/AristotelicaSmallCaps-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Binggrae-Bold";
+  src: url("/assets/fonts/binggrae/Binggrae-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Binggrae";
+  src: url("/assets/fonts/binggrae/Binggrae.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jalnan";
+  src: url("/assets/fonts/jalnan/Jalnan.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoSansKR-Bold";
+  src: url("/assets/fonts/noto_sans_kr/NotoSansKR-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "NotoSansKR-Regular";
+  src: url("/assets/fonts/noto_sans_kr/NotoSansKR-Regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/assets/fonts/noto_sans_kr/NotoSansKR-Regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "GmarketSansTTFBold";
+  src: url("/assets/fonts/GmarketSansTTF/GmarketSansTTFBold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "GmarketSansTTFLight";
+  src: url("/assets/fonts/GmarketSansTTF/GmarketSansTTFLight.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "GmarketSansTTFMedium";
+  src: url("/assets/fonts/GmarketSansTTF/GmarketSansTTFMedium.ttf")
+    format("truetype");
+}
+/* vollkorn */
+@font-face {
+  font-family: "Cafe24Ohsquare";
+  src: url("/assets/fonts/Cafe24Ohsquare/Cafe24Ohsquare.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cafe24Ohsquareair";
+  src: url("/assets/fonts/Cafe24OhsquareAir/Cafe24Ohsquareair.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Mukta-Bold";
+  src: url("/assets/fonts/Mukta/Mukta-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mukta-ExtraBold";
+  src: url("/assets/fonts/Mukta/Mukta-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mukta-ExtraLight";
+  src: url("/assets/fonts/Mukta/Mukta-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mukta-Light";
+  src: url("/assets/fonts/Mukta/Mukta-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mukta-Medium";
+  src: url("/assets/fonts/Mukta/Mukta-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mukta-Regular";
+  src: url("/assets/fonts/Mukta/Mukta-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mukta-SemiBold";
+  src: url("/assets/fonts/Mukta/Mukta-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TmoneyRoundWind";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-Regular.ttf")
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "TmoneyRoundWind";
+  font-weight: 800;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/tmoney/TmoneyRoundWind-ExtraBold.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.tokens {
+  background-color: "#fff";
+  top: 0;
+}
+@media only screen and (max-width: 900px) {
+  .tokens {
+    background: url("/assets/images/tokens/mobile_bg.png") no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .tokens {
+    background: url("/assets/images/tokens/section6_bg.png") no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}
+
+.roadmap {
+  /* height: 800px; */
+  background-color: "000";
+  background: url("/assets/images/roadmap/section7_bg.png") no-repeat;
+  position: relative;
+  background-size: cover;
+  top: -132px;
+}
+
+.dim {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  animation-name: fadeout;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+video.intro-video {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s;
+}
+/* @media (max-width: 900px) {
+  video.intro-video {
+    object-fit: auto;
+  }
+} */
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.swiper-button-prev {
+  margin-top: -90px !important;
+  color: black;
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 25px;
+  background-image: url("/assets/images/designs/leftArrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-button-next {
+  margin-top: -90px !important;
+  color: black;
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 25px;
+  background-image: url("/assets/images/designs/rightArrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #555555;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: #8e74ff !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-button-prev {
+    background-image: none;
+  }
+  .swiper-button-next {
+    width: 36px !important;
+    height: 36px !important;
+    margin-top: -60px;
+  }
+  .swiper-button-prev {
+    width: 36px !important;
+    height: 36px !important;
+    margin-top: -60px;
+  }
+}
