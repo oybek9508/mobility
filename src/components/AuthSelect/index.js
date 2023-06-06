@@ -10,74 +10,76 @@ import { makeStyles } from "@mui/styles";
 */
 
 const useStyles = makeStyles((theme) => ({
-  menuPaper: {
-    maxHeight: 300,
-  },
+	menuPaper: {
+		maxHeight: 300,
+	},
 }));
 
 const AuthSelect = ({ ...rest }) => {
-  const classes = useStyles();
-  const { success, error, type, title, options, placeholder } = rest;
+	const classes = useStyles();
+	const { success, error, type, title, options, placeholder } = rest;
 
-  const titleDisplay = () => {
-    if (title.includes("*")) {
-      return (
-        <p>
-          {title.replace("*", "")}
-          <span style={{ color: "red" }}>*</span>
-        </p>
-      );
-    }
-    return title;
-  };
+	const titleDisplay = () => {
+		if (title.includes("*")) {
+			return (
+				<p>
+					{title.replace("*", "")}
+					<span style={{ color: "red" }}>*</span>
+				</p>
+			);
+		}
+		return title;
+	};
 
-  return (
-    <Box display="flex" flexDirection="column">
-      {title ? (
-        <Typography
-          variant="caption"
-          pb={1}
-          sx={{
-            // fontWeight: 'bold',
-            fontSize: "14px",
-            fontFamily: "Noto Sans",
-            color: "#333333",
-            fontWeight: "400",
-          }}
-        >
-          {titleDisplay()}
-        </Typography>
-      ) : (
-        <Typography
-          variant="caption"
-          pb={1}
-          sx={{
-            // fontWeight: 'bold',
-            fontSize: "14px",
-            fontFamily: "Noto Sans",
-            color: "#333333",
-            fontWeight: "400",
-            cursor: "default",
-          }}
-        >
-          &nbsp;
-        </Typography>
-      )}
+	return (
+		<Box display="flex" flexDirection="column">
+			{title ? (
+				<Typography
+					variant="caption"
+					pb={1}
+					sx={{
+						// fontWeight: 'bold',
+						fontSize: "14px",
+						fontFamily: "Noto Sans",
+						color: "#333333",
+						fontWeight: "400",
+					}}
+				>
+					{titleDisplay()}
+				</Typography>
+			) : (
+				<Typography
+					variant="caption"
+					pb={1}
+					sx={{
+						// fontWeight: 'bold',
+						fontSize: "14px",
+						fontFamily: "Noto Sans",
+						color: "#333333",
+						fontWeight: "400",
+						cursor: "default",
+					}}
+				>
+					&nbsp;
+				</Typography>
+			)}
 
-      <Select
-        {...rest}
-        input={<StyledSelectField />}
-        MenuProps={{ classes: { paper: classes.menuPaper } }}
-      >
-        <MenuItem value="-1" disabled selected>
-          {placeholder}
-        </MenuItem>
-        {options.map((v) => (
-          <MenuItem value={v.value}>{v.label}</MenuItem>
-        ))}
-      </Select>
-    </Box>
-  );
+			<Select
+				{...rest}
+				input={<StyledSelectField />}
+				MenuProps={{ classes: { paper: classes.menuPaper } }}
+			>
+				<MenuItem value="-1" disabled selected>
+					{placeholder}
+				</MenuItem>
+				{options.map((v) => (
+					<MenuItem key={v.value} value={v.value}>
+						{v.label}
+					</MenuItem>
+				))}
+			</Select>
+		</Box>
+	);
 };
 
 export default AuthSelect;
